@@ -1,0 +1,58 @@
+
+# .synopsys_dc.setup
+#
+# setup file for Synopsys synthesis            Synopsys v2010
+#                                              Libs for ST65 v534
+#
+# Apr-2012	Synopsys v2011.09
+
+set company  "Electrical and Information Technology"
+
+set cache_read  ./;
+set cache_write ./;
+
+define_design_lib DEFAULT -path ./WORK
+
+# Pacify Design Vision slightly
+define_design_lib IO65LPHVT_SF_1V8_50A_7M4X0Y2Z -path "no_such_lib"
+
+set search_path "$env(STM065_DIR)/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs \
+		 $env(STM065_DIR)/CORE65LPHVT_5.1/libs \
+		 $env(STM065_DIR)/CLOCK65LPHVT_3.1/libs \
+		 $search_path"
+
+set link_library "IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db \
+                  CORE65LPHVT_nom_1.20V_25C.db \
+				  CLOCK65LPHVT_nom_1.20V_25C.db \
+		  standard.sldb dw_foundation.sldb"
+
+set target_library "IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db \
+                    CORE65LPHVT_nom_1.20V_25C.db \
+					CLOCK65LPHVT_nom_1.20V_25C.db"
+
+# No symbol library for IO-cells.
+set symbol_library "CORE65LPHVT.sdb"
+
+set synthetic_library "standard.sldb dw_foundation.sldb"
+
+
+# ModelSim does not like 'open'.
+set vhdlout_dont_create_dummy_nets "false"
+set vhdlout_bit_type  "std_logic"
+set vhdlout_bit_vector_type "std_logic_vector"
+set vhdlout_single_bit "VECTOR"
+set vhdlout_preserve_hierarchical_types "VECTOR"
+set vhdlout_dont_write_types "true"
+set vhdlout_write_components "true"
+set verilog_no_tri "true"
+
+set vhdlout_use_packages "IEEE.std_logic_1164 \
+                          IEEE.std_logic_arith \
+			  IO65LPHVT_SF_1V8_50A_7M4X0Y2Z.all \
+			  CORE65LPHVT.all"
+ 
+    
+
+
+
+

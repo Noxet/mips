@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+use work.records_pkg.all;
+use work.constants_pkg.all;
+use work.subtypes_pkg.all;
+
+use work.components_pkg.all;
+
+entity if_top is
+    
+    port (
+        clk       : in  std_logic;
+        rst_n     : in  std_logic;
+        halt_i    : in  std_logic;
+        imem_addr : out imem_s);
+
+end entity if_top;
+
+architecture behavioral of if_top is
+
+    signal s_npc_i : imem_s;
+    signal s_pc_o : imem_s;
+    
+begin  -- architecture behavioral
+
+    -- update next pc
+    s_npc_i <= imem_s(unsigned(s_pc_o) + 1);
+
+    -- pc gives address to I-mem
+    imem_addr <= s_pc_o;
+
+    pc_inst: pc
+        port map (
+            clk    => clk,
+            rst_n  => rst_n,
+            halt_i => halt_i,
+            npc_i  => s_npc_i,
+            pc_o   => s_pc_o);
+
+end architecture behavioral;

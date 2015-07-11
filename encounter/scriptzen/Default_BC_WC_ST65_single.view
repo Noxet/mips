@@ -1,0 +1,12 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name WC -cap_table {/usr/local-eit/cad2/cmpstm/stm065v536/EncounterTechnoKit_cmos065_7m4x0y2z_AP@5.3.1/TECH/cmos065_7m4x0y2z_AP_Worst.captable} -T {-40} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {/usr/local-eit/cad2/cmpstm/stm065v536/SignOffTechnoKit_cmos065lp_7m4x0y2z@5.3.4/etc/QrcTechLibs/RCMAX/RCMAX.tech}
+create_rc_corner -name BC -cap_table {/usr/local-eit/cad2/cmpstm/stm065v536/EncounterTechnoKit_cmos065_7m4x0y2z_AP@5.3.1/TECH/cmos065_7m4x0y2z_AP_Best.captable} -T {125} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {/usr/local-eit/cad2/cmpstm/stm065v536/SignOffTechnoKit_cmos065lp_7m4x0y2z@5.3.4/etc/QrcTechLibs/RCMIN/RCMIN.tech}
+create_library_set -name WC -timing {/usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_wc_1.10V_m40C.lib /usr/local-eit/cad2/cmpstm/stm065v536/CLOCK65LPHVT_3.1/libs/CLOCK65LPHVT_wc_1.10V_m40C.lib /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_wc_1.05V_1.65V_m40C.lib /h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_wc_1.10V_m40C.lib}
+create_library_set -name BC -timing {/usr/local-eit/cad2/cmpstm/stm065v536/CLOCK65LPHVT_3.1/libs/CLOCK65LPHVT_bc_1.30V_125C.lib /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_bc_1.30V_125C.lib /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_bc_1.30V_1.95V_125C.lib /h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_bc_1.30V_125C.lib}
+create_constraint_mode -name mySDC -sdc_files {/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.sdc}
+create_delay_corner -name BC -library_set {BC} -rc_corner {BC}
+create_delay_corner -name WC -library_set {WC} -rc_corner {WC}
+create_analysis_view -name BC -constraint_mode {mySDC} -delay_corner {BC}
+create_analysis_view -name WC -constraint_mode {mySDC} -delay_corner {BC}
+set_analysis_view -setup {WC} -hold {BC}

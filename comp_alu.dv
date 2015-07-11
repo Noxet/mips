@@ -1,0 +1,44 @@
+set link_library "./vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db $link_library"
+set target_library "./vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db $target_library"
+
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/subtypes_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/records_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/constants_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/components_pkg.vhd
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/exe/alu.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/exe/alu_top.vhd
+
+elaborate alu_top -architecture Behavioral -library WORK
+
+# Make sure the compiler does not exchange pads.
+#set_dont_touch [ get_cells *pad*] true
+#set_dont_touch clk_pad_in true
+
+# buffer the design
+#set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
+
+
+# Fix the clock (ns).
+create_clock -period 25 -name myclk clk
+set_clock_uncertainty 1 myclk
+
+# Do the real synthesis.
+#set_max_area 0
+
+# lite tester här ja
+#ungroup -all -flatten
+compile -exact_map -map_effort high -area_effort high
+
+# Save the stuff
+write -hierarchy -format ddc -output ./netlists/alu_top.ddc
+
+write_sdc ./netlists/alu_top.sdc
+write_sdf ./netlists/alu_top.sdf
+
+write -hierarchy -format vhdl -output ./netlists/alu_top.vhdl
+write -hierarchy -format verilog -output ./netlists/alu_top.v
+
+report_area
+report_timing

@@ -1,0 +1,733 @@
+Running PRESTO HDLC
+Compiling Package Declaration CONSTANTS_PKG
+Compiling Package Body CONSTANTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration SUBTYPES_PKG
+Compiling Package Body SUBTYPES_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration RECORDS_PKG
+Compiling Package Body RECORDS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration COMPONENTS_PKG
+Compiling Package Body COMPONENTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MINI_MIPS
+Compiling Architecture BEHAVIORAL of MINI_MIPS
+Warning:  ./vhdl/mini_mips_top.vhd:17: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration CONTROLLER
+Compiling Architecture BEHAVIORAL of CONTROLLER
+Warning:  ./vhdl/controller.vhd:15: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration IF_TOP
+Compiling Architecture BEHAVIORAL of IF_TOP
+Warning:  ./vhdl/if/if_top.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration PC
+Compiling Architecture BEHAVIORAL of PC
+Warning:  ./vhdl/if/pc.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ID_TOP
+Compiling Architecture BEHAVIORAL of ID_TOP
+Warning:  ./vhdl/id/id_top.vhd:20: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration REGFILE
+Compiling Architecture BEHAVIORAL of REGFILE
+Warning:  ./vhdl/id/regfile.vhd:19: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration EXE_TOP
+Compiling Architecture BEHAVIORAL of EXE_TOP
+Warning:  ./vhdl/exe/exe_top.vhd:19: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU
+Compiling Architecture BEHAVIORAL of ALU
+Warning:  ./vhdl/exe/alu.vhd:19: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU_CTRL
+Compiling Architecture BEHAVIORAL of ALU_CTRL
+Warning:  ./vhdl/exe/alu_ctrl.vhd:16: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Warning:  ./vhdl/mini_mips_top.vhd:37: The initial value for signal 'dummy_zero' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Statistics for case statements in always block at line 48 in file
+	'./vhdl/mini_mips_top.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            48            |    auto/auto     |
+===============================================
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][0]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][1]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][2]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][3]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][4]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][5]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][6]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][7]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][8]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][9]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][0]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][1]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][2]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][3]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][4]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][5]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][6]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][7]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][8]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][9]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][0]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][1]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][2]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][3]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][4]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][5]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][6]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][7]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][8]'. (ELAB-510)
+Information:  Presto preserved an unloaded net 'mini_mips_i[IMEM_ADDR][9]'. (ELAB-510)
+Presto compilation completed successfully.
+Warning: Overwriting design file '/h/dk/w/ael10jso/mips_project/mini_mips.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'mini_mips'.
+
+Information: There are 116 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Operating condition nom_1.00V_1.80V_25C set on design mini_mips has different process,
+voltage and temperatures parameters than the parameters at which target library 
+CORE65LPHVT is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'controller'
+  Processing 'alu_ctrl'
+  Processing 'alu_DW_mult_uns_0'
+  Processing 'alu_DW01_add_0'
+  Processing 'alu_DW01_sub_0'
+  Processing 'alu_DW_cmp_1'
+  Processing 'alu_DW_cmp_0'
+  Processing 'alu'
+  Processing 'exe_top'
+  Processing 'regfile'
+  Processing 'id_top'
+  Processing 'if_top_DW01_inc_0'
+  Processing 'pc'
+  Processing 'if_top'
+  Processing 'mini_mips'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U31/A U31/Z exe_top_inst/regfile_inst/U2642/A exe_top_inst/regfile_inst/U2642/Z exe_top_inst/regfile_inst/U498/B exe_top_inst/regfile_inst/U498/Z id_top_inst/U30/C id_top_inst/U30/Z id_top_inst/alu_inst/U382/D0 id_top_inst/alu_inst/U382/Z id_top_inst/alu_inst/U381/C id_top_inst/alu_inst/U381/Z id_top_inst/alu_inst/U364/A id_top_inst/alu_inst/U364/Z 
+Information: Timing loop detected. (OPT-150)
+	id_top_inst/alu_inst/U314/C id_top_inst/alu_inst/U314/Z id_top_inst/alu_inst/U302/A id_top_inst/alu_inst/U302/Z U26/A U26/Z exe_top_inst/regfile_inst/U2637/A exe_top_inst/regfile_inst/U2637/Z exe_top_inst/regfile_inst/U418/B exe_top_inst/regfile_inst/U418/Z id_top_inst/U25/C id_top_inst/U25/Z id_top_inst/alu_inst/U315/D0 id_top_inst/alu_inst/U315/Z 
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U498'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U418'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U466'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U162'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U706'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U146'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U722'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U754'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U194'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U770'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U210'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U450'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U402'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1090'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U530'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U114'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U386'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U274'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U482'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U434'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U370'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U994'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U130'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U338'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U322'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U290'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U306'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U850'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U66'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U50'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U34'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U514'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U258'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U242'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U82'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U642'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U354'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U226'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U786'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U802'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U818'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U834'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U866'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U882'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U898'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U930'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U946'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U962'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U978'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1010'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1026'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1042'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1074'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U594'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U610'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U626'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U658'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U98'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U178'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U738'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U914'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U674'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U690'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1058'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12   63171.7      0.00       0.0    2832.7                          
+    0:00:12   63171.7      0.00       0.0    2832.7                          
+    0:00:19   79891.8      0.00       0.0       7.0                          
+    0:00:19   79891.8      0.00       0.0       7.0                          
+    0:00:19   79891.8      0.00       0.0       7.0                          
+    0:00:19   79891.8      0.00       0.0       7.0                          
+    0:00:20   79891.8      0.00       0.0       7.0                          
+    0:00:27   35140.6      0.00       0.0       7.0                          
+    0:00:28   34982.0      0.00       0.0       7.0                          
+    0:00:31   34982.0      0.00       0.0       7.0                          
+    0:00:31   34982.0      0.00       0.0       7.0                          
+    0:00:31   34982.0      0.00       0.0       7.0                          
+    0:00:31   34982.0      0.00       0.0       7.0                          
+    0:00:32   34992.9      0.00       0.0       0.0                          
+    0:00:32   34992.9      0.00       0.0       0.0                          
+    0:00:32   34992.9      0.00       0.0       0.0                          
+    0:00:32   34992.9      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:32   34992.9      0.00       0.0       0.0                          
+    0:00:32   34992.9      0.00       0.0       0.0                          
+    0:00:33   34992.9      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:33   34992.9      0.00       0.0       0.0                          
+    0:00:33   34992.9      0.00       0.0       0.0                          
+    0:00:37   34889.4      0.00       0.0       0.0                          
+    0:00:39   34836.9      0.00       0.0       0.0                          
+    0:00:39   34788.5      0.00       0.0       0.0                          
+    0:00:40   34766.7      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+    0:00:40   34755.8      0.00       0.0       0.0                          
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db'
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'mini_mips' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'id_top_inst/alu_inst/clk': 1066 load(s), 1 driver(s)
+Writing ddc file './netlists/mips.ddc'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/h/dk/w/ael10jso/mips_project/netlists/mips.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Warning: Design 'mini_mips' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Timing loop detected. (OPT-150)
+	U60/A U60/Z exe_top_inst/regfile_inst/U1134/A exe_top_inst/regfile_inst/U1134/Z exe_top_inst/regfile_inst/U498/B exe_top_inst/regfile_inst/U498/Z id_top_inst/U16/C id_top_inst/U16/Z id_top_inst/alu_inst/U167/D0 id_top_inst/alu_inst/U167/Z id_top_inst/alu_inst/U443/C id_top_inst/alu_inst/U443/Z id_top_inst/alu_inst/U441/A id_top_inst/alu_inst/U441/Z 
+Information: Timing loop detected. (OPT-150)
+	id_top_inst/alu_inst/U365/C id_top_inst/alu_inst/U365/Z id_top_inst/alu_inst/U363/A id_top_inst/alu_inst/U363/Z U52/A U52/Z exe_top_inst/regfile_inst/U1071/A exe_top_inst/regfile_inst/U1071/Z exe_top_inst/regfile_inst/U418/B exe_top_inst/regfile_inst/U418/Z id_top_inst/U20/C id_top_inst/U20/Z id_top_inst/alu_inst/U268/A id_top_inst/alu_inst/U268/Z id_top_inst/alu_inst/U155/D0 id_top_inst/alu_inst/U155/Z 
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U498'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U418'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U466'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U162'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U706'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U146'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U722'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U754'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U194'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U770'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U210'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U450'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U402'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1090'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U530'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U114'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U386'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U274'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U482'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U434'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U370'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U994'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U130'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U338'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U322'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U290'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U306'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U850'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U66'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U50'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U34'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U514'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U258'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U242'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U82'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U642'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U354'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U226'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U786'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U802'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U818'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U834'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U866'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U882'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U898'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U930'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U946'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U962'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U978'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1010'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1026'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1042'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1074'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U594'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U610'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U626'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U658'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U98'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'exe_top_inst/regfile_inst/U178'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U738'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U914'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U674'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U690'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'exe_top_inst/regfile_inst/U1058'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Writing vhdl file '/h/dk/w/ael10jso/mips_project/netlists/mips.vhdl'.
+Warning: A dummy net 'n_1000' is created to connect open pin 'CI'. (VHDL-290)
+Warning: A dummy net 'n_1001' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1002' is created to connect open pin 'CI'. (VHDL-290)
+Warning: A dummy net 'n_1003' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1004' is created to connect open pin 'TC'. (VHDL-290)
+Warning: A dummy net 'n_1005' is created to connect open pin 'GE_LT'. (VHDL-290)
+Warning: A dummy net 'n_1006' is created to connect open pin 'GE_GT_EQ'. (VHDL-290)
+Warning: A dummy net 'n_1007' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1008' is created to connect open pin 'TC'. (VHDL-290)
+Warning: A dummy net 'n_1009' is created to connect open pin 'GE_LT'. (VHDL-290)
+Warning: A dummy net 'n_1010' is created to connect open pin 'GE_GT_EQ'. (VHDL-290)
+Warning: A dummy net 'n_1011' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1012' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1013' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1014' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1015' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1016' is created to connect open pin 'imem_addr[9]'. (VHDL-290)
+Warning: A dummy net 'n_1017' is created to connect open pin 'imem_addr[8]'. (VHDL-290)
+Warning: A dummy net 'n_1018' is created to connect open pin 'imem_addr[7]'. (VHDL-290)
+Warning: A dummy net 'n_1019' is created to connect open pin 'imem_addr[6]'. (VHDL-290)
+Warning: A dummy net 'n_1020' is created to connect open pin 'imem_addr[5]'. (VHDL-290)
+Warning: A dummy net 'n_1021' is created to connect open pin 'imem_addr[4]'. (VHDL-290)
+Warning: A dummy net 'n_1022' is created to connect open pin 'imem_addr[3]'. (VHDL-290)
+Warning: A dummy net 'n_1023' is created to connect open pin 'imem_addr[2]'. (VHDL-290)
+Warning: A dummy net 'n_1024' is created to connect open pin 'imem_addr[1]'. (VHDL-290)
+Warning: A dummy net 'n_1025' is created to connect open pin 'imem_addr[0]'. (VHDL-290)
+Warning: A dummy net 'n_1026' is created to connect open pin 'ctrl_o[BRANCH]'. (VHDL-290)
+Warning: A dummy net 'n_1027' is created to connect open pin 'ctrl_o[CALU_OP][3]'. (VHDL-290)
+Warning: A dummy net 'n_1028' is created to connect open pin 'ctrl_o[CALU_OP][2]'. (VHDL-290)
+Writing verilog file '/h/dk/w/ael10jso/mips_project/netlists/mips.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 3 nets to module mini_mips using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+ 
+****************************************
+Report : area
+Design : mini_mips
+Version: F-2011.09-SP3
+Date   : Fri May  2 16:38:04 2014
+****************************************
+
+Library(s) Used:
+
+    CORE65LPHVT (File: /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db)
+
+Number of ports:                          122
+Number of nets:                           259
+Number of cells:                           41
+Number of combinational cells:             37
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          5
+Number of references:                       7
+
+Combinational area:       23581.479707
+Noncombinational area:    11174.279596
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          34755.759304
+Total area:                 undefined
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mini_mips
+Version: F-2011.09-SP3
+Date   : Fri May  2 16:38:04 2014
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: nom_1.00V_1.80V_25C   Library: IO65LPHVT_SF_1V8_50A_7M4X0Y2Z
+Wire Load Model Mode: top
+
+  Startpoint: exe_top_inst/regfile_inst/registers_reg[9][2]
+              (rising edge-triggered flip-flop clocked by myclk)
+  Endpoint: id_top_inst/alu_inst/HI_LO_c_reg[HI][31]
+            (rising edge-triggered flip-flop clocked by myclk)
+  Path Group: myclk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock myclk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  exe_top_inst/regfile_inst/registers_reg[9][2]/CP (HS65_LH_DFPRQNX9)
+                                                          0.00 #     0.00 r
+  exe_top_inst/regfile_inst/registers_reg[9][2]/QN (HS65_LH_DFPRQNX9)
+                                                          0.17       0.17 r
+  exe_top_inst/regfile_inst/U1801/Z (HS65_LH_IVX9)        0.02       0.20 f
+  exe_top_inst/regfile_inst/U1656/Z (HS65_LH_MX41X7)      0.12       0.31 f
+  exe_top_inst/regfile_inst/U691/Z (HS65_LH_NAND4ABX3)
+                                                          0.12       0.43 f
+  exe_top_inst/regfile_inst/U688/Z (HS65_LH_OAI21X3)      0.11       0.54 r
+  exe_top_inst/regfile_inst/U738/Z (HS65_LH_OAI12X18)     0.11       0.65 f
+  exe_top_inst/regfile_inst/regfile_o[READ_DATA0][2] (regfile)
+                                                          0.00       0.65 f
+  exe_top_inst/id_top_o[REG_A][2] (id_top)                0.00       0.65 f
+  id_top_inst/exe_top_i[REGS_A][2] (exe_top)              0.00       0.65 f
+  id_top_inst/alu_inst/alu_i[SRC_A][2] (alu)              0.00       0.65 f
+  id_top_inst/alu_inst/mult_68/a[2] (alu_DW_mult_uns_0)
+                                                          0.00       0.65 f
+  id_top_inst/alu_inst/mult_68/U2358/Z (HS65_LH_IVX9)     0.07       0.72 r
+  id_top_inst/alu_inst/mult_68/U2018/Z (HS65_LH_IVX9)     0.14       0.87 f
+  id_top_inst/alu_inst/mult_68/U3360/Z (HS65_LHS_XOR2X6)
+                                                          0.17       1.04 r
+  id_top_inst/alu_inst/mult_68/U3254/Z (HS65_LH_NOR2AX3)
+                                                          0.32       1.36 r
+  id_top_inst/alu_inst/mult_68/U3253/Z (HS65_LH_IVX9)     0.14       1.50 f
+  id_top_inst/alu_inst/mult_68/U2677/Z (HS65_LH_IVX9)     0.11       1.61 r
+  id_top_inst/alu_inst/mult_68/U1999/Z (HS65_LH_AO22X9)
+                                                          0.13       1.74 r
+  id_top_inst/alu_inst/mult_68/U1998/Z (HS65_LHS_XOR2X6)
+                                                          0.10       1.84 f
+  id_top_inst/alu_inst/mult_68/U1997/S0 (HS65_LH_HA1X4)
+                                                          0.16       2.00 f
+  id_top_inst/alu_inst/mult_68/U2366/CO (HS65_LH_FA1X4)
+                                                          0.16       2.16 f
+  id_top_inst/alu_inst/mult_68/U2369/CO (HS65_LH_FA1X4)
+                                                          0.15       2.31 f
+  id_top_inst/alu_inst/mult_68/U2372/CO (HS65_LH_FA1X4)
+                                                          0.15       2.46 f
+  id_top_inst/alu_inst/mult_68/U2375/CO (HS65_LH_FA1X4)
+                                                          0.15       2.61 f
+  id_top_inst/alu_inst/mult_68/U2378/CO (HS65_LH_FA1X4)
+                                                          0.15       2.76 f
+  id_top_inst/alu_inst/mult_68/U2384/CO (HS65_LH_FA1X4)
+                                                          0.15       2.91 f
+  id_top_inst/alu_inst/mult_68/U2390/CO (HS65_LH_FA1X4)
+                                                          0.15       3.06 f
+  id_top_inst/alu_inst/mult_68/U2399/CO (HS65_LH_FA1X4)
+                                                          0.15       3.21 f
+  id_top_inst/alu_inst/mult_68/U2323/CO (HS65_LH_FA1X4)
+                                                          0.15       3.36 f
+  id_top_inst/alu_inst/mult_68/U2417/CO (HS65_LH_FA1X4)
+                                                          0.15       3.51 f
+  id_top_inst/alu_inst/mult_68/U2429/CO (HS65_LH_FA1X4)
+                                                          0.15       3.67 f
+  id_top_inst/alu_inst/mult_68/U2108/CO (HS65_LH_FA1X4)
+                                                          0.15       3.82 f
+  id_top_inst/alu_inst/mult_68/U2112/CO (HS65_LH_FA1X4)
+                                                          0.15       3.97 f
+  id_top_inst/alu_inst/mult_68/U2115/CO (HS65_LH_FA1X4)
+                                                          0.15       4.12 f
+  id_top_inst/alu_inst/mult_68/U2118/CO (HS65_LH_FA1X4)
+                                                          0.15       4.27 f
+  id_top_inst/alu_inst/mult_68/U2121/CO (HS65_LH_FA1X4)
+                                                          0.15       4.42 f
+  id_top_inst/alu_inst/mult_68/U2124/CO (HS65_LH_FA1X4)
+                                                          0.15       4.57 f
+  id_top_inst/alu_inst/mult_68/U2127/CO (HS65_LH_FA1X4)
+                                                          0.15       4.72 f
+  id_top_inst/alu_inst/mult_68/U2130/CO (HS65_LH_FA1X4)
+                                                          0.15       4.87 f
+  id_top_inst/alu_inst/mult_68/U2133/CO (HS65_LH_FA1X4)
+                                                          0.15       5.02 f
+  id_top_inst/alu_inst/mult_68/U2136/CO (HS65_LH_FA1X4)
+                                                          0.15       5.17 f
+  id_top_inst/alu_inst/mult_68/U2139/CO (HS65_LH_FA1X4)
+                                                          0.15       5.33 f
+  id_top_inst/alu_inst/mult_68/U2142/CO (HS65_LH_FA1X4)
+                                                          0.15       5.48 f
+  id_top_inst/alu_inst/mult_68/U2145/CO (HS65_LH_FA1X4)
+                                                          0.15       5.63 f
+  id_top_inst/alu_inst/mult_68/U2148/CO (HS65_LH_FA1X4)
+                                                          0.15       5.78 f
+  id_top_inst/alu_inst/mult_68/U2105/CO (HS65_LH_FA1X4)
+                                                          0.15       5.93 f
+  id_top_inst/alu_inst/mult_68/U2151/CO (HS65_LH_FA1X4)
+                                                          0.15       6.08 f
+  id_top_inst/alu_inst/mult_68/U2154/CO (HS65_LH_FA1X4)
+                                                          0.15       6.23 f
+  id_top_inst/alu_inst/mult_68/U2157/CO (HS65_LH_FA1X4)
+                                                          0.15       6.38 f
+  id_top_inst/alu_inst/mult_68/U3243/CO (HS65_LH_FA1X4)
+                                                          0.15       6.53 f
+  id_top_inst/alu_inst/mult_68/U2160/CO (HS65_LH_FA1X4)
+                                                          0.15       6.68 f
+  id_top_inst/alu_inst/mult_68/U1964/CO (HS65_LH_FA1X4)
+                                                          0.15       6.84 f
+  id_top_inst/alu_inst/mult_68/U1965/CO (HS65_LH_FA1X4)
+                                                          0.15       6.99 f
+  id_top_inst/alu_inst/mult_68/U1966/CO (HS65_LH_FA1X4)
+                                                          0.15       7.14 f
+  id_top_inst/alu_inst/mult_68/U1967/CO (HS65_LH_FA1X4)
+                                                          0.15       7.29 f
+  id_top_inst/alu_inst/mult_68/U1968/CO (HS65_LH_FA1X4)
+                                                          0.15       7.44 f
+  id_top_inst/alu_inst/mult_68/U1969/CO (HS65_LH_FA1X4)
+                                                          0.15       7.59 f
+  id_top_inst/alu_inst/mult_68/U1970/CO (HS65_LH_FA1X4)
+                                                          0.15       7.74 f
+  id_top_inst/alu_inst/mult_68/U1971/CO (HS65_LH_FA1X4)
+                                                          0.15       7.89 f
+  id_top_inst/alu_inst/mult_68/U1972/CO (HS65_LH_FA1X4)
+                                                          0.15       8.04 f
+  id_top_inst/alu_inst/mult_68/U1973/CO (HS65_LH_FA1X4)
+                                                          0.15       8.19 f
+  id_top_inst/alu_inst/mult_68/U1974/CO (HS65_LH_FA1X4)
+                                                          0.15       8.34 f
+  id_top_inst/alu_inst/mult_68/U1975/CO (HS65_LH_FA1X4)
+                                                          0.15       8.50 f
+  id_top_inst/alu_inst/mult_68/U1976/CO (HS65_LH_FA1X4)
+                                                          0.15       8.65 f
+  id_top_inst/alu_inst/mult_68/U1977/CO (HS65_LH_FA1X4)
+                                                          0.15       8.80 f
+  id_top_inst/alu_inst/mult_68/U1978/CO (HS65_LH_FA1X4)
+                                                          0.15       8.95 f
+  id_top_inst/alu_inst/mult_68/U1979/CO (HS65_LH_FA1X4)
+                                                          0.15       9.10 f
+  id_top_inst/alu_inst/mult_68/U1980/CO (HS65_LH_FA1X4)
+                                                          0.15       9.25 f
+  id_top_inst/alu_inst/mult_68/U1981/CO (HS65_LH_FA1X4)
+                                                          0.15       9.40 f
+  id_top_inst/alu_inst/mult_68/U1982/CO (HS65_LH_FA1X4)
+                                                          0.15       9.55 f
+  id_top_inst/alu_inst/mult_68/U1983/CO (HS65_LH_FA1X4)
+                                                          0.15       9.70 f
+  id_top_inst/alu_inst/mult_68/U1984/CO (HS65_LH_FA1X4)
+                                                          0.15       9.85 f
+  id_top_inst/alu_inst/mult_68/U1985/CO (HS65_LH_FA1X4)
+                                                          0.15      10.00 f
+  id_top_inst/alu_inst/mult_68/U1986/CO (HS65_LH_FA1X4)
+                                                          0.15      10.16 f
+  id_top_inst/alu_inst/mult_68/U1987/CO (HS65_LH_FA1X4)
+                                                          0.15      10.31 f
+  id_top_inst/alu_inst/mult_68/U1988/CO (HS65_LH_FA1X4)
+                                                          0.15      10.46 f
+  id_top_inst/alu_inst/mult_68/U1989/CO (HS65_LH_FA1X4)
+                                                          0.15      10.61 f
+  id_top_inst/alu_inst/mult_68/U1990/CO (HS65_LH_FA1X4)
+                                                          0.15      10.76 f
+  id_top_inst/alu_inst/mult_68/U1991/CO (HS65_LH_FA1X4)
+                                                          0.15      10.91 f
+  id_top_inst/alu_inst/mult_68/U2111/CO (HS65_LH_FA1X4)
+                                                          0.16      11.07 f
+  id_top_inst/alu_inst/mult_68/U3353/Z (HS65_LHS_XOR3X2)
+                                                          0.15      11.22 f
+  id_top_inst/alu_inst/mult_68/product[63] (alu_DW_mult_uns_0)
+                                                          0.00      11.22 f
+  id_top_inst/alu_inst/U245/Z (HS65_LH_AO22X9)            0.13      11.35 f
+  id_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D (HS65_LH_DFPRQX9)
+                                                          0.00      11.35 f
+  data arrival time                                                 11.35
+
+  clock myclk (rise edge)                                20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -1.00      19.00
+  id_top_inst/alu_inst/HI_LO_c_reg[HI][31]/CP (HS65_LH_DFPRQX9)
+                                                          0.00      19.00 r
+  library setup time                                     -0.13      18.87
+  data required time                                                18.87
+  --------------------------------------------------------------------------
+  data required time                                                18.87
+  data arrival time                                                -11.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        7.53
+
+
+1

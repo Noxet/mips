@@ -1,0 +1,33 @@
+
+# .synopsys_pt.setup
+#
+# setup file for Synopsys PeimeTime            Synopsys v2010.03 -> 2011.12
+#                                              Libs for ST65
+# Feb 2009  / J Rodrigues
+# Slightly fixed up to make it work. S Molund.
+#
+#
+
+set power_enable_analysis true
+
+set search_path "$env(STM065_DIR)/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs \
+		 $env(STM065_DIR)/CORE65LPHVT_5.1/libs \
+                 . \
+		 $search_path"
+
+set link_library "* IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db \
+                  CORE65LPHVT_nom_1.20V_25C.db"
+
+set target_library "IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db \
+                    CORE65LPHVT_nom_1.20V_25C.db"
+
+# No symbol library for IO-cells.
+set symbol_library "CORE65LPHVT.sdb"
+
+
+ 
+    
+
+
+
+

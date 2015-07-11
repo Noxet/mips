@@ -1,0 +1,417 @@
+Running PRESTO HDLC
+Compiling Package Declaration SUBTYPES_PKG
+Compiling Package Body SUBTYPES_PKG
+Presto compilation completed successfully.
+Loading db file '/h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db'
+Running PRESTO HDLC
+Compiling Package Declaration RECORDS_PKG
+Compiling Package Body RECORDS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration CONSTANTS_PKG
+Compiling Package Body CONSTANTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration COMPONENTS_PKG
+Compiling Package Body COMPONENTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration PC
+Compiling Architecture BEHAVIORAL of PC
+Warning:  ./vhdl/mips_pipeline/if/pc.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration IF_TOP
+Compiling Architecture BEHAVIORAL of IF_TOP
+Warning:  ./vhdl/mips_pipeline/if/if_top.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration REGFILE
+Compiling Architecture BEHAVIORAL of REGFILE
+Warning:  ./vhdl/mips_pipeline/id/regfile.vhd:19: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ID_TOP
+Compiling Architecture BEHAVIORAL of ID_TOP
+Warning:  ./vhdl/mips_pipeline/id/id_top.vhd:20: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU_CTRL
+Compiling Architecture BEHAVIORAL of ALU_CTRL
+Warning:  ./vhdl/mips_pipeline/exe/alu_ctrl.vhd:16: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU
+Compiling Architecture BEHAVIORAL of ALU
+Warning:  ./vhdl/mips_pipeline/exe/alu.vhd:19: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration EXE_TOP
+Compiling Architecture BEHAVIORAL of EXE_TOP
+Warning:  ./vhdl/mips_pipeline/exe/exe_top.vhd:20: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration CONTROLLER
+Compiling Architecture BEHAVIORAL of CONTROLLER
+Warning:  ./vhdl/mips_pipeline/controller.vhd:15: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Error:  Unable to open file `./vhdl/mips_pipeline/mini_mips.vhd': No such file or directory. (VER-41)
+*** Presto compilation terminated with 1 errors. ***
+Running PRESTO HDLC
+Compiling Entity Declaration MINI_MIPS_P
+Compiling Architecture BEHAVIORAL of MINI_MIPS_P
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:17: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+  Loading link library 'SPHDL100823'
+Running PRESTO HDLC
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[56] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[55] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[54] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[53] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[52] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[51] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[50] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[49] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[48] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[47] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[46] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[45] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[44] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[43] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[42] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[41] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[40] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[39] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[38] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[37] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[36] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[35] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[34] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[33] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[32] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[31] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[30] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[29] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[28] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[27] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[26] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[25] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[24] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[23] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[22] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[21] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[20] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[19] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[18] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[17] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[16] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[15] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[14] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[13] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[12] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[11] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[10] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[9] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[8] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[7] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[6] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[5] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[4] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[3] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[2] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[1] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[0] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[11] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[10] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[9] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[8] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[7] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[6] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[5] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[4] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[3] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[2] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[1] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[0] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'WEN of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[11] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[10] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[9] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[8] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[7] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[6] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[5] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[4] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[3] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[2] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[1] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[0] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[31] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[30] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[29] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[28] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[27] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[26] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[25] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[24] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[23] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[22] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[21] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[20] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[19] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[18] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[17] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[16] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[15] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[14] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[13] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[12] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[11] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[10] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[9] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[8] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[7] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[6] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[5] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[4] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[3] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[2] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[1] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[0] of cell dmem_inst' connected to ground. (ELAB-294)
+Presto compilation completed successfully.
+Warning: Overwriting design file '/h/dk/w/ael10jso/mips_project/mini_mips_p.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'mini_mips_p'.
+Information: Building the design 'mini_mips_pipeline'. (HDL-193)
+Warning: Cannot find the design 'mini_mips_pipeline' in the library 'WORK'. (LBR-1)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Can't find objects matching 'alu_result*' in design 'mini_mips_p'. (UID-95)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: It is dangerous to create a clock source on inout port 'clk'. (UID-376)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+
+Information: There are 2 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+  Loading target library 'SPHDL100823'
+  Loading target library 'SPHDL100823'
+  Loading target library 'IO65LPHVT_SF_1V8_50A_7M4X0Y2Z'
+  Loading target library 'CORE65LPHVT'
+Information: Building the design 'mini_mips_pipeline'. (HDL-193)
+Warning: Cannot find the design 'mini_mips_pipeline' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'mini_mips_pipeline' in 'mini_mips_p'. (LINK-5)
+Warning: Operating condition nom_1.20V_25C set on design mini_mips_p has different process,
+voltage and temperatures parameters than the parameters at which target library 
+IO65LPHVT_SF_1V8_50A_7M4X0Y2Z is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'mini_mips_p'
+Information: Building the design 'mini_mips_pipeline'. (HDL-193)
+Warning: Cannot find the design 'mini_mips_pipeline' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'mini_mips_pipeline' in 'mini_mips_p'. (LINK-5)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+Warning: In design mini_mips_p, there are sequential cells not driving any load. (OPT-109)
+Information: Use the 'check_design' command for 
+	 more information about warnings. (LINT-98)
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:05  199033.2      0.00       0.0       0.0                          
+    0:00:05  199033.2      0.00       0.0       0.0                          
+    0:00:05  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+    0:00:06  199033.2      0.00       0.0       0.0                          
+Loading db file '/h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db'
+Loading db file '/h/dk/w/ael10jso/mips_project/vhdl/mem/SPHDL100823_nom_1.20V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db'
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing ddc file './netlists/mips_pipeline.ddc'.
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing vhdl file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.vhdl'.
+Warning: A dummy net 'n_1000' is created to connect open pin 'Q[31]'. (VHDL-290)
+Warning: A dummy net 'n_1001' is created to connect open pin 'Q[30]'. (VHDL-290)
+Warning: A dummy net 'n_1002' is created to connect open pin 'Q[29]'. (VHDL-290)
+Warning: A dummy net 'n_1003' is created to connect open pin 'Q[28]'. (VHDL-290)
+Warning: A dummy net 'n_1004' is created to connect open pin 'Q[27]'. (VHDL-290)
+Warning: A dummy net 'n_1005' is created to connect open pin 'Q[26]'. (VHDL-290)
+Warning: A dummy net 'n_1006' is created to connect open pin 'Q[25]'. (VHDL-290)
+Warning: A dummy net 'n_1007' is created to connect open pin 'Q[24]'. (VHDL-290)
+Warning: A dummy net 'n_1008' is created to connect open pin 'Q[23]'. (VHDL-290)
+Warning: A dummy net 'n_1009' is created to connect open pin 'Q[22]'. (VHDL-290)
+Warning: A dummy net 'n_1010' is created to connect open pin 'Q[21]'. (VHDL-290)
+Warning: A dummy net 'n_1011' is created to connect open pin 'Q[20]'. (VHDL-290)
+Warning: A dummy net 'n_1012' is created to connect open pin 'Q[19]'. (VHDL-290)
+Warning: A dummy net 'n_1013' is created to connect open pin 'Q[18]'. (VHDL-290)
+Warning: A dummy net 'n_1014' is created to connect open pin 'Q[17]'. (VHDL-290)
+Warning: A dummy net 'n_1015' is created to connect open pin 'Q[16]'. (VHDL-290)
+Warning: A dummy net 'n_1016' is created to connect open pin 'Q[15]'. (VHDL-290)
+Warning: A dummy net 'n_1017' is created to connect open pin 'Q[14]'. (VHDL-290)
+Warning: A dummy net 'n_1018' is created to connect open pin 'Q[13]'. (VHDL-290)
+Warning: A dummy net 'n_1019' is created to connect open pin 'Q[12]'. (VHDL-290)
+Warning: A dummy net 'n_1020' is created to connect open pin 'Q[11]'. (VHDL-290)
+Warning: A dummy net 'n_1021' is created to connect open pin 'Q[10]'. (VHDL-290)
+Warning: A dummy net 'n_1022' is created to connect open pin 'Q[9]'. (VHDL-290)
+Warning: A dummy net 'n_1023' is created to connect open pin 'Q[8]'. (VHDL-290)
+Warning: A dummy net 'n_1024' is created to connect open pin 'Q[7]'. (VHDL-290)
+Warning: A dummy net 'n_1025' is created to connect open pin 'Q[6]'. (VHDL-290)
+Warning: A dummy net 'n_1026' is created to connect open pin 'Q[5]'. (VHDL-290)
+Warning: A dummy net 'n_1027' is created to connect open pin 'Q[4]'. (VHDL-290)
+Warning: A dummy net 'n_1028' is created to connect open pin 'Q[3]'. (VHDL-290)
+Warning: A dummy net 'n_1029' is created to connect open pin 'Q[2]'. (VHDL-290)
+Warning: A dummy net 'n_1030' is created to connect open pin 'Q[1]'. (VHDL-290)
+Warning: A dummy net 'n_1031' is created to connect open pin 'Q[0]'. (VHDL-290)
+Warning: A dummy net 'n_1032' is created to connect open pin 'RY'. (VHDL-290)
+Warning: A dummy net 'n_1033' is created to connect open pin 'Q[31]'. (VHDL-290)
+Warning: A dummy net 'n_1034' is created to connect open pin 'Q[30]'. (VHDL-290)
+Warning: A dummy net 'n_1035' is created to connect open pin 'Q[29]'. (VHDL-290)
+Warning: A dummy net 'n_1036' is created to connect open pin 'Q[28]'. (VHDL-290)
+Warning: A dummy net 'n_1037' is created to connect open pin 'Q[27]'. (VHDL-290)
+Warning: A dummy net 'n_1038' is created to connect open pin 'Q[26]'. (VHDL-290)
+Warning: A dummy net 'n_1039' is created to connect open pin 'Q[25]'. (VHDL-290)
+Warning: A dummy net 'n_1040' is created to connect open pin 'Q[24]'. (VHDL-290)
+Warning: A dummy net 'n_1041' is created to connect open pin 'Q[23]'. (VHDL-290)
+Warning: A dummy net 'n_1042' is created to connect open pin 'Q[22]'. (VHDL-290)
+Warning: A dummy net 'n_1043' is created to connect open pin 'Q[21]'. (VHDL-290)
+Warning: A dummy net 'n_1044' is created to connect open pin 'Q[20]'. (VHDL-290)
+Warning: A dummy net 'n_1045' is created to connect open pin 'Q[19]'. (VHDL-290)
+Warning: A dummy net 'n_1046' is created to connect open pin 'Q[18]'. (VHDL-290)
+Warning: A dummy net 'n_1047' is created to connect open pin 'Q[17]'. (VHDL-290)
+Warning: A dummy net 'n_1048' is created to connect open pin 'Q[16]'. (VHDL-290)
+Warning: A dummy net 'n_1049' is created to connect open pin 'Q[15]'. (VHDL-290)
+Warning: A dummy net 'n_1050' is created to connect open pin 'Q[14]'. (VHDL-290)
+Warning: A dummy net 'n_1051' is created to connect open pin 'Q[13]'. (VHDL-290)
+Warning: A dummy net 'n_1052' is created to connect open pin 'Q[12]'. (VHDL-290)
+Warning: A dummy net 'n_1053' is created to connect open pin 'Q[11]'. (VHDL-290)
+Warning: A dummy net 'n_1054' is created to connect open pin 'Q[10]'. (VHDL-290)
+Warning: A dummy net 'n_1055' is created to connect open pin 'Q[9]'. (VHDL-290)
+Warning: A dummy net 'n_1056' is created to connect open pin 'Q[8]'. (VHDL-290)
+Warning: A dummy net 'n_1057' is created to connect open pin 'Q[7]'. (VHDL-290)
+Warning: A dummy net 'n_1058' is created to connect open pin 'Q[6]'. (VHDL-290)
+Warning: A dummy net 'n_1059' is created to connect open pin 'Q[5]'. (VHDL-290)
+Warning: A dummy net 'n_1060' is created to connect open pin 'Q[4]'. (VHDL-290)
+Warning: A dummy net 'n_1061' is created to connect open pin 'Q[3]'. (VHDL-290)
+Warning: A dummy net 'n_1062' is created to connect open pin 'Q[2]'. (VHDL-290)
+Warning: A dummy net 'n_1063' is created to connect open pin 'Q[1]'. (VHDL-290)
+Warning: A dummy net 'n_1064' is created to connect open pin 'Q[0]'. (VHDL-290)
+Warning: A dummy net 'n_1065' is created to connect open pin 'RY'. (VHDL-290)
+Warning: A dummy net 'n_1066' is created to connect open pin 'ZI'. (VHDL-290)
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing verilog file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.v'.
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : mini_mips_p
+Version: F-2011.09-SP3
+Date   : Wed May 28 11:29:20 2014
+****************************************
+
+Library(s) Used:
+
+    IO65LPHVT_SF_1V8_50A_7M4X0Y2Z (File: /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db)
+    SPHDL100823 (File: /h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db)
+
+Number of ports:                            2
+Number of nets:                             5
+Number of cells:                            4
+Number of combinational cells:              2
+Number of sequential cells:                 2
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       2
+
+Combinational area:          0.000000
+Noncombinational area:    199033.203125
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          199033.203125
+Total area:                 undefined
+Warning: Design 'mini_mips_p' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mini_mips_p
+Version: F-2011.09-SP3
+Date   : Wed May 28 11:29:20 2014
+****************************************
+
+Operating Conditions: nom_1.20V_25C   Library: SPHDL100823
+Wire Load Model Mode: top
+
+  Startpoint: clk_pad_in/IO (internal pin)
+  Endpoint: clk (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clk_pad_in/IO (BD2SCARUDQP_1V8_SF_LIN)                  0.00       0.00 r
+  clk (inout)                                             0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,52 @@
+set link_library "./vhdl/mem/SPHDL100823_nom_1.20V_25C.db $link_library"
+set target_library "./vhdl/mem/SPHDL100823_nom_1.20V_25C.db $target_library"
+
+
+analyze -library WORK -format vhdl ./vhdl/subtypes_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/records_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/constants_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/components_pkg.vhd
+
+analyze -library WORK -format vhdl ./vhdl/if/pc.vhd
+analyze -library WORK -format vhdl ./vhdl/if/if_top.vhd
+
+analyze -library WORK -format vhdl ./vhdl/id/regfile.vhd
+analyze -library WORK -format vhdl ./vhdl/id/id_top.vhd
+
+analyze -library WORK -format vhdl ./vhdl/exe/alu_ctrl.vhd
+analyze -library WORK -format vhdl ./vhdl/exe/alu.vhd
+analyze -library WORK -format vhdl ./vhdl/exe/exe_top.vhd
+
+analyze -library WORK -format vhdl ./vhdl/controller.vhd
+
+analyze -library WORK -format vhdl ./vhdl/mini_mips.vhd
+analyze -library WORK -format vhdl ./vhdl/mini_mips_P.vhd
+
+elaborate mini_mips_P -architecture Behavioral -library DEFAULT
+
+# Make sure the compiler does not exchange pads.
+set_dont_touch [ get_cells *pad*] true
+set_dont_touch clk_pad_in true
+
+# test test
+set_dont_touch alu_result* true
+
+# Fix the clock (ns).
+create_clock -period 15 -name myclk clk
+set_clock_uncertainty 1 myclk
+
+# Do the real synthesis.
+#set_max_area 0
+compile -map_effort high -area_effort high
+
+# Save the stuff
+write -hierarchy -format ddc -output ./netlists/mips.ddc
+
+write_sdc ./netlists/mips.sdc
+write_sdf ./netlists/mips.sdf
+
+write -hierarchy -format vhdl -output ./netlists/mips.vhdl
+write -hierarchy -format verilog -output ./netlists/mips.v
+
+report_area
+report_timing

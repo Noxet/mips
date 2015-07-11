@@ -1,0 +1,66 @@
+set link_library "./vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db $link_library"
+set target_library "./vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db $target_library"
+
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/subtypes_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/records_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/constants_pkg.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/components_pkg.vhd
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/if/pc.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/if/if_top.vhd
+
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/id/regfile.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/id/id_top.vhd
+
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/exe/alu_ctrl.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/exe/alu.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/exe/exe_top.vhd
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/pipelines/if_id.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/pipelines/id_exe.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/pipelines/exe_mem.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/pipelines/mem_wb.vhd
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/controller.vhd
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/forwarding_unit.vhd
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/mini_mips_pipeline.vhd
+#analyze -library WORK -format vhdl ./vhdl/mips_pipeline/mini_mips_fakepad.vhd
+
+analyze -library WORK -format vhdl ./vhdl/mips_pipeline/mini_mips_P.vhd
+
+elaborate mini_mips_P -architecture Behavioral -library WORK
+
+# Make sure the compiler does not exchange pads.
+set_dont_touch [ get_cells *pad*] true
+set_dont_touch clk_pad_in true
+
+# buffer the design
+set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
+
+
+# Fix the clock (ns).
+create_clock -period 10  -name myclk clk
+set_clock_uncertainty 1 myclk
+
+# Do the real synthesis.
+#set_max_area 0
+
+# lite tester här ja
+#ungroup -all -flatten
+compile -exact_map -map_effort high -area_effort high
+
+# Save the stuff
+write -hierarchy -format ddc -output ./netlists/mips_pipeline.ddc
+
+write_sdc ./netlists/mips_pipeline.sdc
+write_sdf ./netlists/mips_pipeline.sdf
+
+write -hierarchy -format vhdl -output ./netlists/mips_pipeline.vhdl
+write -hierarchy -format verilog -output ./netlists/mips_pipeline.v
+
+report_area
+report_timing

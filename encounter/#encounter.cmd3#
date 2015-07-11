@@ -1,0 +1,349 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Tue May 13 13:25:13 2014                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: Encounter v11.12-s119_1 (64bit) 08/10/2012 15:23 (Linux 2.6)
+#@(#)CDS: NanoRoute v11.12-s002 NR120727-2211/11_10_USR2-UB (database version 2.30, 165.4.1) {superthreading v1.16}
+#@(#)CDS: CeltIC v11.12-s013_1 (64bit) 08/09/2012 02:49:15 (Linux 2.6.18-194.el5)
+#@(#)CDS: AAE 11.12-s002 (64bit) 08/10/2012 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 11.12-s087_1 (64bit) Aug 10 2012 11:04:44 (Linux 2.6.18-194.el5)
+#@(#)CDS: CPE v11.12-s007
+#@(#)CDS: IQRC/TQRC 11.1.1-s334 (64bit) Sun May  6 19:52:51 PDT 2012 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set defHierChar ./
+set init_io_file /h/dk/w/ael10jso/mips_project/netlists/mips.io
+set init_oa_search_lib {}
+set lsgOCPGainMult 1.000000
+set init_verilog /h/dk/w/ael10jso/mips_project/netlists/mips.v
+set init_pwr_net VDD
+set init_mmmc_file /h/dk/w/ael10jso/mips_project/netlists/Default_BC_WC_ST65.view
+set init_lef_file {/usr/local-eit/cad2/cmpstm/stm065v536/EncounterTechnoKit_cmos065_7m4x0y2z_AP@5.3.1/TECH/cmos065_7m4x0y2z_AP_Worst.lef /usr/local-eit/cad2/cmpstm/stm065v536/CLOCK65LPHVT_3.1/CADENCE/LEF/CLOCK65LPHVT_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/CADENCE/LEF/CORE65LPHVT_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/CADENCE/LEF/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/PRHS65_7.0.a/CADENCE/LEF/PRHS65_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/IO65LP_SF_BASIC_50A_ST_7M4X0Y2Z_7.2/CADENCE/LEF/IO65LP_SF_BASIC_50A_ST_7M4X0Y2Z_soc.lef ~/mips_project/vhdl/mem/SPHDL100823.lef ~/mips_project/vhdl/mem/SPHDL100823_soc.lef}
+set init_gnd_net GND
+create_rc_corner -name WC -cap_table {/usr/local-eit/cad2/cmpstm/stm065v536/EncounterTechnoKit_cmos065_7m4x0y2z_AP@5.3.1/TECH/cmos065_7m4x0y2z_AP_Worst.captable} -T {-40} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {/usr/local-eit/cad2/cmpstm/stm065v536/SignOffTechnoKit_cmos065lp_7m4x0y2z@5.3.4/etc/QrcTechLibs/RCMAX/RCMAX.tech}
+create_rc_corner -name BC -cap_table {/usr/local-eit/cad2/cmpstm/stm065v536/EncounterTechnoKit_cmos065_7m4x0y2z_AP@5.3.1/TECH/cmos065_7m4x0y2z_AP_Best.captable} -T {125} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {/usr/local-eit/cad2/cmpstm/stm065v536/SignOffTechnoKit_cmos065lp_7m4x0y2z@5.3.4/etc/QrcTechLibs/RCMIN/RCMIN.tech}
+create_library_set -name WC -timing {/usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_wc_1.10V_m40C.lib /usr/local-eit/cad2/cmpstm/stm065v536/CLOCK65LPHVT_3.1/libs/CLOCK65LPHVT_wc_1.10V_m40C.lib /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_wc_1.05V_1.65V_m40C.lib /h/dk/w/ael10jso/mips_project/vhdl/mem/SPHDL100823_wc_1.10V_m40C.lib}
+create_library_set -name BC -timing {/usr/local-eit/cad2/cmpstm/stm065v536/CLOCK65LPHVT_3.1/libs/CLOCK65LPHVT_bc_1.30V_125C.lib /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_bc_1.30V_125C.lib /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_bc_1.30V_1.95V_125C.lib /h/dk/w/ael10jso/mips_project/vhdl/mem/SPHDL100823_bc_1.30V_125C.lib}
+create_constraint_mode -name mySDC -sdc_files {/h/dk/w/ael10jso/mips_project/netlists/mips.sdc}
+create_delay_corner -name BC -library_set {BC} -rc_corner {BC}
+create_delay_corner -name WC -library_set {WC} -rc_corner {WC}
+create_analysis_view -name BC -constraint_mode {mySDC} -delay_corner {BC}
+create_analysis_view -name WC -constraint_mode {mySDC} -delay_corner {BC}
+init_design
+set_analysis_view -setup {WC} -hold {BC}
+init_design
+fit
+setDrawView ameba
+setDrawView fplan
+uiSetTool move
+selectInst dmem_inst
+setObjFPlanBox Instance dmem_inst 112.935 366.312 417.735 678.112
+deselectAll
+selectInst imem_inst
+setObjFPlanBox Instance imem_inst 434.346 367.185 739.146 678.985
+zoomBox 372.509 631.885 561.347 484.137
+uiSetTool ruler
+uiSetTool move
+uiSetTool ruler
+uiSetTool move
+setObjFPlanBox Instance imem_inst 442.809 364.067 747.609 675.867
+fit
+zoomBox 89.251 735.047 310.437 544.460
+zoomBox 93.728 688.885 137.400 655.556
+deselectAll
+selectInst dmem_inst
+setObjFPlanBox Instance dmem_inst 112.031 367.014 416.831 678.814
+zoomBox 110.271 680.477 113.219 677.161
+zoomBox 111.561 679.254 112.688 678.171
+zoomBox 111.961 678.908 112.362 678.551
+setObjFPlanBox Instance dmem_inst 112.0 367.0 416.8 678.8
+fit
+zoomBox 424.964 749.035 607.682 500.747
+zoomBox 500.852 706.863 564.483 614.286
+panPage -1 0
+deselectAll
+selectInst imem_inst
+setObjFPlanBox Instance imem_inst 442.81 367.042 747.61 678.842
+setObjFPlanBox Instance imem_inst 442.81 366.854 747.61 678.654
+zoomBox 443.895 677.183 444.267 677.555
+zoomBox 443.080 678.875 443.686 677.658
+setObjFPlanBox Instance imem_inst 442.811 367.001 747.611 678.801
+zoomBox 443.262 678.841 443.399 678.600
+zoomBox 443.297 678.826 443.361 678.756
+fit
+clearGlobalNets
+globalNetConnect VDD -type pgpin -pin VDD -inst *
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect GND -type pgpin -pin GND -inst *
+globalNetConnect GND -type tielo -inst *
+zoomBox 675.000 666.855 753.682 614.400
+uiSetTool ruler
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CORE -s 635.57 566.8 0.0 0.0 0.0 0.0
+uiSetTool select
+getIoFlowFlag
+fit
+zoomBox 686.815 694.831 798.719 603.035
+zoomBox 736.401 686.159 763.341 659.958
+zoomBox 746.000 680.181 751.898 672.650
+zoomBox 746.557 679.288 748.798 676.904
+zoomBox 747.181 678.986 747.572 678.528
+deselectAll
+selectInst imem_inst
+uiSetTool move
+setObjFPlanBox Instance imem_inst 442.77 367.0 747.57 678.8
+fit
+uiSetTool select
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CORE -s 635.57 566.8 20 20 20 20
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CORE -s 635.57 566.8 20.0 20.0 20.0 20.0
+uiSetTool select
+getIoFlowFlag
+fit
+uiSetTool move
+zoomBox 88.826 722.629 272.520 538.935
+zoomBox 97.964 710.814 156.672 651.182
+zoomBox 106.282 699.847 139.964 672.757
+deselectAll
+selectInst dmem_inst
+setObjFPlanBox Instance dmem_inst 132.039 386.984 436.839 698.784
+zoomBox 131.508 699.548 136.219 694.946
+zoomBox 131.801 699.104 132.666 698.119
+setObjFPlanBox Instance dmem_inst 132.0 387.0 436.8 698.8
+zoomBox 131.860 698.896 132.095 698.661
+zoomBox 131.956 698.819 132.019 698.764
+fit
+zoomBox 694.099 729.977 988.010 424.125
+zoomBox 715.332 715.222 800.479 622.698
+zoomBox 734.100 702.018 779.200 662.125
+zoomBox 745.945 700.494 768.999 676.318
+deselectAll
+selectInst imem_inst
+setObjFPlanBox Instance imem_inst 462.645 386.949 767.445 698.749
+zoomBox 765.806 699.522 769.717 696.534
+zoomBox 767.236 699.084 768.062 698.234
+zoomBox 767.334 698.899 767.635 698.542
+setObjFPlanBox Instance imem_inst 462.77 387.0 767.57 698.8
+fit
+uiSetTool select
+deselectAll
+selectInst dmem_inst
+addHaloToBlock 10 10 0 10 -allBlock
+addHaloToBlock 10 10 10 10 -allBlock
+zoomBox 418.557 599.554 531.529 428.718
+zoomBox 441.734 543.753 473.497 508.041
+zoomBox 417.201 492.749 541.286 321.437
+uiSetTool ruler
+zoomBox 444.636 428.012 454.106 413.377
+fit
+zoomBox 447.030 429.636 460.807 401.164
+zoomBox 445.019 416.645 456.179 410.865
+zoomBox 446.498 414.450 452.999 412.222
+fit
+uiSetTool move
+uiSetTool select
+deselectAll
+selectInst imem_inst
+placeInstance imem_inst 456.8 387.0 R0
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CORE -s 629.6 566.8 20.0 20.0 20.0 20.0
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CORE -s 629.6 566.8 20.0 20.0 20.0 20.0
+uiSetTool select
+getIoFlowFlag
+fit
+addHaloToBlock 10 10 10 10 -allBlock
+zoomBox 95.025 729.058 271.372 532.505
+zoomBox 120.379 707.132 168.382 646.881
+zoomBox 121.612 701.319 142.442 671.890
+uiSetTool move
+deselectAll
+selectInst dmem_inst
+setObjFPlanBox Instance dmem_inst 132.004 386.994 436.804 698.794
+zoomBox 131.850 699.397 135.842 695.552
+zoomBox 131.778 698.968 132.717 698.083
+zoomBox 131.972 698.851 132.167 698.682
+zoomBox 131.983 698.808 132.045 698.763
+setObjFPlanBox Instance dmem_inst 132.0 387.0 436.8 698.8
+fit
+deselectAll
+selectInst imem_inst
+setObjFPlanBox Instance imem_inst 455.913 387.206 760.713 699.006
+zoomBox 742.548 713.444 770.102 677.624
+zoomBox 758.197 701.204 768.169 691.628
+zoomBox 760.218 699.510 763.250 696.546
+zoomBox 760.524 699.224 762.201 698.092
+setObjFPlanBox Instance imem_inst 456.799 387.0 761.599 698.8
+zoomBox 761.467 698.911 761.723 698.663
+zoomBox 761.562 698.818 761.648 698.738
+zoomBox 761.590 698.805 761.617 698.782
+zoomBox 761.597 698.802 761.605 698.795
+fit
+setDrawView place
+zoomBox 431.048 433.447 598.210 266.285
+zoomBox 425.588 409.591 485.564 353.142
+zoomBox 435.549 398.642 460.852 374.076
+zoomBox 442.447 393.729 453.163 382.026
+fit
+uiSetTool select
+deselectAll
+selectInst dmem_inst
+deselectAll
+selectInst dmem_inst
+setDrawView fplan
+deselectAll
+selectInst imem_inst
+deselectAll
+selectInst dmem_inst
+deselectAll
+selectInst imem_inst
+deselectAll
+selectInst dmem_inst
+setDrawView place
+deselectAll
+selectInst dmem_inst
+cutRow -selected
+deselectAll
+selectInst imem_inst
+cutRow -selected
+cutRow -selected
+uiSetTool move
+deselectAll
+selectInst dmem_inst
+setObjFPlanBox Instance dmem_inst 110.875 227.186 415.675 538.986
+redraw
+undo
+deselectAll
+selectInst imem_inst
+setObjFPlanBox Instance imem_inst 438.43 212.49 743.23 524.29
+undo
+saveDesign mini_mips_p.enc
+set sprCreateIeRingNets {}
+set sprCreateIeRingLayers {}
+set sprCreateIeRingWidth 1.0
+set sprCreateIeRingSpacing 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+addRing -stacked_via_top_layer AP -around core -jog_distance 2.5 -threshold 2.5 -nets {GND VDD} -stacked_via_bottom_layer M1 -layer {bottom M3 top M3 right M4 left M4} -width 2 -spacing 2 -offset 2
+deselectAll
+selectInst dmem_inst
+uiSetTool select
+deselectAll
+selectInst dmem_inst
+deselectAll
+selectInst dmem_inst
+addRing -stacked_via_top_layer AP -around core -jog_distance 2.5 -threshold 2.5 -nets {GND VDD} -stacked_via_bottom_layer M1 -layer {bottom M3 top M3 right M4 left M4} -width 2 -spacing 2 -offset 2 -skip_side {left top}
+deselectAll
+selectInst dmem_inst
+undo
+selectInst imem_inst
+selectInst imem_inst
+deselectAll
+selectInst dmem_inst
+deselectAll
+selectInst dmem_inst
+addRing -stacked_via_top_layer AP -around selected -jog_distance 2.5 -threshold 2.5 -type block_rings -nets {GND VDD} -stacked_via_bottom_layer M1 -layer {bottom M3 top M3 right M4 left M4} -width 2 -spacing 2 -offset 2 -skip_side {left top}
+deselectAll
+selectInst imem_inst
+addRing -stacked_via_top_layer AP -around selected -jog_distance 2.5 -threshold 2.5 -type block_rings -nets {GND VDD} -stacked_via_bottom_layer M1 -layer {bottom M3 top M3 right M4 left M4} -width 2 -spacing 2 -offset 2 -skip_side {top right}
+zoomBox 427.512 434.229 534.055 249.616
+fit
+set sprCreateIeStripeNets {}
+set sprCreateIeStripeLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeSpacing 2.0
+set sprCreateIeStripeThreshold 1.0
+addStripe -block_ring_top_layer_limit M5 -max_same_layer_jog_length 6 -padcore_ring_bottom_layer_limit M3 -set_to_set_distance 100 -stacked_via_top_layer AP -padcore_ring_top_layer_limit M5 -spacing 2 -merge_stripes_value 2.5 -layer M4 -block_ring_bottom_layer_limit M3 -width 2 -nets {GND VDD} -stacked_via_bottom_layer M1
+addStripe -block_ring_top_layer_limit M4 -max_same_layer_jog_length 6 -padcore_ring_bottom_layer_limit M2 -set_to_set_distance 100 -stacked_via_top_layer AP -padcore_ring_top_layer_limit M4 -spacing 2 -merge_stripes_value 2.5 -direction horizontal -layer M3 -block_ring_bottom_layer_limit M2 -width 2 -nets {GND VDD} -stacked_via_bottom_layer M1
+addStripe -block_ring_top_layer_limit M4 -max_same_layer_jog_length 6 -padcore_ring_bottom_layer_limit M2 -set_to_set_distance 100 -stacked_via_top_layer AP -padcore_ring_top_layer_limit M4 -spacing 2 -merge_stripes_value 2.5 -direction horizontal -layer M3 -block_ring_bottom_layer_limit M2 -width 2 -nets {GND VDD} -stacked_via_bottom_layer M1
+setPrerouteAsObs {1 2 3 4 5 6 7 8}
+setPlaceMode -fp false
+placeDesign -prePlaceOpt
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CORE -r 0.900254129606 0.75 20.0 20.0 20.0 20.0
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CORE -r 0.900254129606 0.631475 20.0 20.0 20.0 20.0
+uiSetTool select
+getIoFlowFlag
+fit
+getIoFlowFlag
+zoomBox 697.713 750.183 861.201 543.527
+zoomBox 746.225 718.821 793.787 659.421
+zoomBox 754.902 706.643 771.976 684.972
+zoomBox 760.193 701.024 764.920 695.383
+fit
+createClockTreeSpec -bufferList {HS65_LH_BFX106 HS65_LH_BFX13 HS65_LH_BFX142 HS65_LH_BFX18 HS65_LH_BFX2 HS65_LH_BFX213 HS65_LH_BFX22 HS65_LH_BFX27 HS65_LH_BFX284 HS65_LH_BFX31 HS65_LH_BFX35 HS65_LH_BFX4 HS65_LH_BFX40 HS65_LH_BFX44 HS65_LH_BFX49 HS65_LH_BFX53 HS65_LH_BFX62 HS65_LH_BFX7 HS65_LH_BFX71 HS65_LH_BFX9 HS65_LH_CNBFX10 HS65_LH_CNBFX103 HS65_LH_CNBFX124 HS65_LH_CNBFX14 HS65_LH_CNBFX17 HS65_LH_CNBFX21 HS65_LH_CNBFX24 HS65_LH_CNBFX27 HS65_LH_CNBFX31 HS65_LH_CNBFX34 HS65_LH_CNBFX38 HS65_LH_CNBFX38_0 HS65_LH_CNBFX38_1 HS65_LH_CNBFX38_10 HS65_LH_CNBFX38_11 HS65_LH_CNBFX38_12 HS65_LH_CNBFX38_13 HS65_LH_CNBFX38_14 HS65_LH_CNBFX38_15 HS65_LH_CNBFX38_16 HS65_LH_CNBFX38_17 HS65_LH_CNBFX38_18 HS65_LH_CNBFX38_19 HS65_LH_CNBFX38_2 HS65_LH_CNBFX38_20 HS65_LH_CNBFX38_21 HS65_LH_CNBFX38_22 HS65_LH_CNBFX38_23 HS65_LH_CNBFX38_3 HS65_LH_CNBFX38_4 HS65_LH_CNBFX38_5 HS65_LH_CNBFX38_6 HS65_LH_CNBFX38_7 HS65_LH_CNBFX38_8 HS65_LH_CNBFX38_9 HS65_LH_CNBFX41 HS65_LH_CNBFX45 HS65_LH_CNBFX48 HS65_LH_CNBFX52 HS65_LH_CNBFX55 HS65_LH_CNBFX58 HS65_LH_CNBFX62 HS65_LH_CNBFX82 HS65_LH_CNIVX10 HS65_LH_CNIVX103 HS65_LH_CNIVX124 HS65_LH_CNIVX14 HS65_LH_CNIVX17 HS65_LH_CNIVX21 HS65_LH_CNIVX24 HS65_LH_CNIVX27 HS65_LH_CNIVX3 HS65_LH_CNIVX31 HS65_LH_CNIVX34 HS65_LH_CNIVX38 HS65_LH_CNIVX41 HS65_LH_CNIVX45 HS65_LH_CNIVX48 HS65_LH_CNIVX52 HS65_LH_CNIVX55 HS65_LH_CNIVX58 HS65_LH_CNIVX62 HS65_LH_CNIVX7 HS65_LH_CNIVX82 HS65_LH_DLYIC2X4 HS65_LH_DLYIC2X7 HS65_LH_DLYIC2X9 HS65_LH_DLYIC4X4 HS65_LH_DLYIC4X7 HS65_LH_DLYIC4X9 HS65_LH_DLYIC6X4 HS65_LH_DLYIC6X7 HS65_LH_DLYIC6X9 HS65_LH_IVX106 HS65_LH_IVX13 HS65_LH_IVX142 HS65_LH_IVX18 HS65_LH_IVX2 HS65_LH_IVX213 HS65_LH_IVX22 HS65_LH_IVX27 HS65_LH_IVX284 HS65_LH_IVX31 HS65_LH_IVX35 HS65_LH_IVX4 HS65_LH_IVX40 HS65_LH_IVX44 HS65_LH_IVX49 HS65_LH_IVX53 HS65_LH_IVX62 HS65_LH_IVX7 HS65_LH_IVX71 HS65_LH_IVX9} -file Clock.ctstch
+clockDesign -specFile Clock.ctstch -outDir clock_report -fixedInstBeforeCTS
+setDrawView ameba
+setDrawView place
+displayClockTree -skew -allLevel -preRoute
+clearClockDisplay
+addIoFiller -cell IOFILLER16_ST_SF_LIN IOFILLER8_ST_SF_LIN IOFILLER4_ST_SF_LIN IOFILLER2_ST_SF_LIN IOFILLER1_ST_SF_LIN -prefix IO_FILLER -side n
+addIoFiller -cell IOFILLER16_ST_SF_LIN IOFILLER8_ST_SF_LIN IOFILLER4_ST_SF_LIN IOFILLER2_ST_SF_LIN IOFILLER1_ST_SF_LIN -prefix IO_FILLER -side s
+addIoFiller -cell IOFILLER16_ST_SF_LIN IOFILLER8_ST_SF_LIN IOFILLER4_ST_SF_LIN IOFILLER2_ST_SF_LIN IOFILLER1_ST_SF_LIN -prefix IO_FILLER -side w
+addIoFiller -cell IOFILLER16_ST_SF_LIN IOFILLER8_ST_SF_LIN IOFILLER4_ST_SF_LIN IOFILLER2_ST_SF_LIN IOFILLER1_ST_SF_LIN -prefix IO_FILLER -side e
+setDrawView ameba
+setDrawView place
+zoomBox 779.458 831.927 791.398 813.558
+selectInst Pcornerur
+deselectAll
+selectInst IO_FILLER_N_183
+deselectAll
+zoomBox 781.643 829.084 782.769 828.124
+selectObject Pin Pcornerur/DUMMY
+deselectAll
+selectInst Pcornerur
+deselectAll
+selectInst Pcornerur
+fit
+zoomBox 210.923 814.476 887.837 677.624
+zoomBox 734.973 785.902 815.833 714.283
+zoomBox 774.323 752.432 794.909 735.085
+zoomBox 782.157 744.761 784.337 741.815
+fit
+windowSelect 242.151 118.274 265.113 47.552
+zoomBox 242.151 115.519 265.113 53.063
+fit
+sroute -connect { blockPin padPin padRing corePin } -layerChangeRange { M1 AP } -blockPinTarget { nearestRingStripe nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer M1 -allowLayerChange 1 -targetViaTopLayer AP -crossoverViaTopLayer AP -targetViaBottomLayer M1 -nets { GND VDD }
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven false
+setNanoRouteMode -quiet -routeWithSiDriven false
+routeDesign -globalDetail
+zoomBox 762.925 429.636 819.870 376.365
+fit
+saveDesign mini_mips_p.enc
+panCenter 852.292 729.931
+zoomBox 725.819 856.796 836.678 695.190
+zoomBox 756.561 820.414 805.611 764.055
+zoomBox 772.193 801.269 789.525 787.731
+zoomBox 779.729 796.180 783.253 793.473
+fit
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix mini_mips_p_postRoute -outDir timingReports
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix mini_mips_p_postRoute -outDir timingReports

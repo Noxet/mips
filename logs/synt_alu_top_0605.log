@@ -1,0 +1,200 @@
+Running PRESTO HDLC
+Compiling Package Declaration SUBTYPES_PKG
+Compiling Package Body SUBTYPES_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration RECORDS_PKG
+Compiling Package Body RECORDS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration CONSTANTS_PKG
+Compiling Package Body CONSTANTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration COMPONENTS_PKG
+Compiling Package Body COMPONENTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU
+Compiling Architecture BEHAVIORAL of ALU
+Warning:  ./vhdl/mips_pipeline/exe/alu.vhd:19: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU_TOP
+Compiling Architecture BEHAVIORAL of ALU_TOP
+Warning:  ./vhdl/mips_pipeline/exe/alu_top.vhd:24: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Warning: Overwriting design file '/h/dk/w/ael10jso/mips_project/alu_top.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'alu_top'.
+
+Information: There are 5 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Operating condition nom_1.20V_25C set on design alu_top has different process,
+voltage and temperatures parameters than the parameters at which target library 
+IO65LPHVT_SF_1V8_50A_7M4X0Y2Z is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'alu_DW_mult_uns_0'
+  Processing 'alu_DW01_add_0'
+  Processing 'alu_DW01_cmp6_0'
+  Processing 'alu_DW01_sub_0'
+  Processing 'alu_DW_cmp_0'
+  Processing 'alu'
+  Processing 'alu_top'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:05   28164.8      0.00       0.0     877.8                          
+    0:00:05   28164.8      0.00       0.0     877.8                          
+    0:00:07   33855.6      0.00       0.0       3.0                          
+    0:00:07   33855.6      0.00       0.0       3.0                          
+    0:00:07   33855.6      0.00       0.0       3.0                          
+    0:00:07   33855.6      0.00       0.0       3.0                          
+    0:00:07   33855.6      0.00       0.0       3.0                          
+    0:00:10   13231.9      0.00       0.0       3.0                          
+    0:00:10   13160.7      0.00       0.0       3.0                          
+    0:00:12   13160.7      0.00       0.0       3.0                          
+    0:00:12   13160.7      0.00       0.0       3.0                          
+    0:00:12   13160.7      0.00       0.0       3.0                          
+    0:00:12   13160.7      0.00       0.0       3.0                          
+    0:00:12   13162.2      0.00       0.0       0.0                          
+    0:00:12   13162.2      0.00       0.0       0.0                          
+    0:00:12   13162.2      0.00       0.0       0.0                          
+    0:00:12   13162.2      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12   13162.2      0.00       0.0       0.0                          
+    0:00:12   13162.2      0.00       0.0       0.0                          
+    0:00:12   13162.2      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12   13162.2      0.00       0.0       0.0                          
+    0:00:12   13162.2      0.00       0.0       0.0                          
+    0:00:13   13110.8      0.00       0.0       0.0                          
+    0:00:14   13080.1      0.00       0.0       0.0                          
+    0:00:14   13054.1      0.00       0.0       0.0                          
+    0:00:15   13030.7      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+    0:00:15   13019.8      0.00       0.0       0.0                          
+Loading db file '/h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/CLOCK65LPHVT_3.1/libs/CLOCK65LPHVT_nom_1.20V_25C.db'
+
+  Optimization Complete
+  ---------------------
+Writing ddc file './netlists/alu_top.ddc'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/h/dk/w/ael10jso/mips_project/netlists/alu_top.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Writing vhdl file '/h/dk/w/ael10jso/mips_project/netlists/alu_top.vhdl'.
+Writing verilog file '/h/dk/w/ael10jso/mips_project/netlists/alu_top.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+ 
+****************************************
+Report : area
+Design : alu_top
+Version: F-2011.09-SP3
+Date   : Thu Jun  5 18:31:26 2014
+****************************************
+
+Library(s) Used:
+
+    CORE65LPHVT (File: /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db)
+
+Number of ports:                          109
+Number of nets:                           109
+Number of cells:                            1
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       1
+
+Combinational area:       12354.159778
+Noncombinational area:     665.599976
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          13019.759754
+Total area:                 undefined
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : alu_top
+Version: F-2011.09-SP3
+Date   : Thu Jun  5 18:31:26 2014
+****************************************
+
+Operating Conditions: nom_1.20V_25C   Library: SPHDL100823
+Wire Load Model Mode: top
+
+  Startpoint: alu_inst/HI_LO_c_reg[LO][0]
+              (rising edge-triggered flip-flop clocked by myclk)
+  Endpoint: alu_inst/HI_LO_c_reg[LO][0]
+            (rising edge-triggered flip-flop clocked by myclk)
+  Path Group: myclk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock myclk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  alu_inst/HI_LO_c_reg[LO][0]/CP (HS65_LH_DFPRQNX9)       0.00       0.00 r
+  alu_inst/HI_LO_c_reg[LO][0]/QN (HS65_LH_DFPRQNX9)       0.17       0.17 r
+  alu_inst/U1032/Z (HS65_LH_IVX9)                         0.02       0.19 f
+  alu_inst/U783/Z (HS65_LH_AO22X9)                        0.09       0.27 f
+  alu_inst/HI_LO_c_reg[LO][0]/D (HS65_LH_DFPRQNX9)        0.00       0.27 f
+  data arrival time                                                  0.27
+
+  clock myclk (rise edge)                                25.00      25.00
+  clock network delay (ideal)                             0.00      25.00
+  clock uncertainty                                      -1.00      24.00
+  alu_inst/HI_LO_c_reg[LO][0]/CP (HS65_LH_DFPRQNX9)       0.00      24.00 r
+  library setup time                                     -0.12      23.88
+  data required time                                                23.88
+  --------------------------------------------------------------------------
+  data required time                                                23.88
+  data arrival time                                                 -0.27
+  --------------------------------------------------------------------------
+  slack (MET)                                                       23.60
+
+
+1

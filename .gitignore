@@ -1,0 +1,13 @@
+*.swp
+*.vhd~
+*.dat
+*.dbs
+*.prw
+*.psm
+*.mti
+*.mpf
+*.wlf
+*.bak
+transcript
+vhdl/test/
+work/

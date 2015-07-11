@@ -1,0 +1,329 @@
+Running PRESTO HDLC
+Compiling Package Declaration SUBTYPES_PKG
+Compiling Package Body SUBTYPES_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration RECORDS_PKG
+Compiling Package Body RECORDS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration CONSTANTS_PKG
+Compiling Package Body CONSTANTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration COMPONENTS_PKG
+Compiling Package Body COMPONENTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration PC
+Compiling Architecture BEHAVIORAL of PC
+Warning:  ./vhdl/mips_pipeline/if/pc.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration IF_TOP
+Compiling Architecture BEHAVIORAL of IF_TOP
+Warning:  ./vhdl/mips_pipeline/if/if_top.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration REGFILE
+Compiling Architecture BEHAVIORAL of REGFILE
+Warning:  ./vhdl/mips_pipeline/id/regfile.vhd:19: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ID_TOP
+Compiling Architecture BEHAVIORAL of ID_TOP
+Warning:  ./vhdl/mips_pipeline/id/id_top.vhd:20: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU_CTRL
+Compiling Architecture BEHAVIORAL of ALU_CTRL
+Warning:  ./vhdl/mips_pipeline/exe/alu_ctrl.vhd:16: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU
+Compiling Architecture BEHAVIORAL of ALU
+Warning:  ./vhdl/mips_pipeline/exe/alu.vhd:19: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration EXE_TOP
+Compiling Architecture BEHAVIORAL of EXE_TOP
+Warning:  ./vhdl/mips_pipeline/exe/exe_top.vhd:20: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration CONTROLLER
+Compiling Architecture BEHAVIORAL of CONTROLLER
+Warning:  ./vhdl/mips_pipeline/controller.vhd:15: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MINI_MIPS_PIPELINE
+Compiling Architecture BEHAVIORAL of MINI_MIPS_PIPELINE
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MINI_MIPS_P
+Compiling Architecture BEHAVIORAL of MINI_MIPS_P
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:17: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[56] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[55] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[54] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[53] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[52] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[51] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[50] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[49] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[48] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[47] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[46] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[45] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[44] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[43] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[42] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[41] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[40] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[39] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[38] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[37] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[36] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[35] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[34] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[33] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[32] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[31] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[30] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[29] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[28] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[27] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[26] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[25] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[24] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[23] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[22] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[21] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[20] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[19] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[18] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[17] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[16] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[15] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[14] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[13] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[12] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[11] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[10] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[9] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[8] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[7] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[6] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[5] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[4] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[3] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[2] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[1] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:52: Floating pin 'mini_mips_o[0] of cell mini_mips_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[11] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[10] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[9] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[8] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[7] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[6] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[5] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[4] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[3] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[2] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[1] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:66: Floating pin 'A[0] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'WEN of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[11] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[10] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[9] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[8] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[7] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[6] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[5] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[4] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[3] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[2] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[1] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'A[0] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[31] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[30] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[29] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[28] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[27] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[26] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[25] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[24] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[23] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[22] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[21] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[20] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[19] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[18] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[17] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[16] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[15] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[14] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[13] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[12] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[11] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[10] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[9] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[8] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[7] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[6] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[5] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[4] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[3] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[2] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[1] of cell dmem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mips_pipeline/mini_mips_P.vhd:90: Floating pin 'D[0] of cell dmem_inst' connected to ground. (ELAB-294)
+Presto compilation completed successfully.
+Warning: Overwriting design file '/h/dk/w/ael10jso/mips_project/mini_mips_p.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'mini_mips_p'.
+Information: Building the design 'mini_mips_pipeline'. (HDL-193)
+Warning:  ./vhdl/mips_pipeline/mini_mips_pipeline.vhd:40: The initial value for signal 'dummy_zero' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Statistics for case statements in always block at line 123 in file
+	'./vhdl/mips_pipeline/mini_mips_pipeline.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           123            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 128 in file
+	'./vhdl/mips_pipeline/mini_mips_pipeline.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           128            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 134 in file
+	'./vhdl/mips_pipeline/mini_mips_pipeline.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           134            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'if_id'. (HDL-193)
+Warning: Cannot find the design 'if_id' in the library 'WORK'. (LBR-1)
+Error: Width mismatch on port 'id_top_i' of reference to 'id_top' in 'mini_mips_pipeline'. (LINK-3)
+Information: Building the design 'id_exe'. (HDL-193)
+Warning: Cannot find the design 'id_exe' in the library 'WORK'. (LBR-1)
+Error: Width mismatch on port 'exe_top_i' of reference to 'exe_top' in 'mini_mips_pipeline'. (LINK-3)
+Information: Building the design 'forwarding_unit'. (HDL-193)
+Warning: Cannot find the design 'forwarding_unit' in the library 'WORK'. (LBR-1)
+Information: Building the design 'exe_mem'. (HDL-193)
+Warning: Cannot find the design 'exe_mem' in the library 'WORK'. (LBR-1)
+Information: Building the design 'mem_wb'. (HDL-193)
+Warning: Cannot find the design 'mem_wb' in the library 'WORK'. (LBR-1)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Can't find objects matching 'alu_result*' in design 'mini_mips_p'. (UID-95)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: It is dangerous to create a clock source on inout port 'clk'. (UID-376)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[0]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[1]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[2]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[3]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[4]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[5]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[6]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[7]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[8]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[9]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[10]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+Error: In design 'mini_mips_p', leaf cell output pin 'mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[11]/Q' is connected to constant net '*Logic0*'. (LINT-67)
+
+Information: There are 119 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing ddc file './netlists/mips_pipeline.ddc'.
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Warning: Design contains black-box components.  These cells will have no timing information. (WT-7)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing vhdl file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.vhdl'.
+Warning: A dummy net 'n_1000' is created to connect open pin 'ctrl_o[BRANCH]'. (VHDL-290)
+Warning: A dummy net 'n_1001' is created to connect open pin 'RY'. (VHDL-290)
+Warning: A dummy net 'n_1002' is created to connect open pin 'RY'. (VHDL-290)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing verilog file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 1 nets to module mini_mips_pipeline using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+Warning: Module mini_mips_pipeline contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : mini_mips_p
+Version: F-2011.09-SP3
+Date   : Wed May 28 11:32:10 2014
+****************************************
+
+Library(s) Used:
+
+    IO65LPHVT_SF_1V8_50A_7M4X0Y2Z (File: /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db)
+    SPHDL100823 (File: /h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db)
+    gtech (File: /usr/local-eit/cad2/synopsys/syn2011/libraries/syn/gtech.db)
+    CORE65LPHVT (File: /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db)
+
+Number of ports:                            2
+Number of nets:                            70
+Number of cells:                            5
+Number of combinational cells:              2
+Number of sequential cells:                 2
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       3
+
+Combinational area:        214.759993
+Noncombinational area:    199218.843122
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          199433.603116
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+Information: This design contains black box (unknown) components. (RPT-8)
+Warning: Design 'mini_mips_p' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mini_mips_p
+Version: F-2011.09-SP3
+Date   : Wed May 28 11:32:10 2014
+****************************************
+
+Operating Conditions: nom_1.20V_25C   Library: SPHDL100823
+Wire Load Model Mode: top
+
+  Startpoint: clk_pad_in/IO (internal pin)
+  Endpoint: clk (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clk_pad_in/IO (BD2SCARUDQP_1V8_SF_LIN)                  0.00       0.00 r
+  clk (inout)                                             0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,502 @@
+Running PRESTO HDLC
+Compiling Package Declaration SUBTYPES_PKG
+Compiling Package Body SUBTYPES_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration RECORDS_PKG
+Compiling Package Body RECORDS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration CONSTANTS_PKG
+Compiling Package Body CONSTANTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration COMPONENTS_PKG
+Compiling Package Body COMPONENTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration PC
+Compiling Architecture BEHAVIORAL of PC
+Warning:  ./vhdl/mips_pipeline/if/pc.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration IF_TOP
+Compiling Architecture BEHAVIORAL of IF_TOP
+Warning:  ./vhdl/mips_pipeline/if/if_top.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration REGFILE
+Compiling Architecture BEHAVIORAL of REGFILE
+Warning:  ./vhdl/mips_pipeline/id/regfile.vhd:19: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ID_TOP
+Compiling Architecture BEHAVIORAL of ID_TOP
+Warning:  ./vhdl/mips_pipeline/id/id_top.vhd:20: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU_CTRL
+Compiling Architecture BEHAVIORAL of ALU_CTRL
+Warning:  ./vhdl/mips_pipeline/exe/alu_ctrl.vhd:16: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU
+Compiling Architecture BEHAVIORAL of ALU
+Warning:  ./vhdl/mips_pipeline/exe/alu.vhd:19: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration EXE_TOP
+Compiling Architecture BEHAVIORAL of EXE_TOP
+Warning:  ./vhdl/mips_pipeline/exe/exe_top.vhd:20: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration IF_ID
+Compiling Architecture BEHAVIORAL of IF_ID
+Warning:  ./vhdl/mips_pipeline/pipelines/if_id.vhd:18: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ID_EXE
+Compiling Architecture BEHAVIORAL of ID_EXE
+Warning:  ./vhdl/mips_pipeline/pipelines/id_exe.vhd:18: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration EXE_MEM
+Compiling Architecture BEHAVIORAL of EXE_MEM
+Warning:  ./vhdl/mips_pipeline/pipelines/exe_mem.vhd:18: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MEM_WB
+Compiling Architecture BEHAVIORAL of MEM_WB
+Warning:  ./vhdl/mips_pipeline/pipelines/mem_wb.vhd:18: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration CONTROLLER
+Compiling Architecture BEHAVIORAL of CONTROLLER
+Warning:  ./vhdl/mips_pipeline/controller.vhd:15: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration FORWARDING_UNIT
+Compiling Architecture BEHAVIORAL of FORWARDING_UNIT
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MINI_MIPS_PIPELINE
+Compiling Architecture BEHAVIORAL of MINI_MIPS_PIPELINE
+Warning:  ./vhdl/mips_pipeline/mini_mips_pipeline.vhd:17: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MINI_MIPS_FAKEPAD
+Compiling Architecture BEHAVIORAL of MINI_MIPS_FAKEPAD
+Warning:  ./vhdl/mips_pipeline/mini_mips_fakepad.vhd:17: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Warning: Overwriting design file '/h/dk/w/ael10jso/mips_project/mini_mips_fakepad.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'mini_mips_fakepad'.
+Information: Building the design 'forwarding_unit'. (HDL-193)
+Presto compilation completed successfully.
+
+Information: There are 160 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Operating condition nom_1.20V_25C set on design mini_mips_fakepad has different process,
+voltage and temperatures parameters than the parameters at which target library 
+IO65LPHVT_SF_1V8_50A_7M4X0Y2Z is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'mem_wb'
+  Processing 'exe_mem'
+  Processing 'forwarding_unit'
+Information: Added key list 'DesignWare' to design 'forwarding_unit'. (DDB-72)
+  Processing 'exe_top_DW01_add_0'
+  Processing 'alu_ctrl'
+  Processing 'alu_DW_mult_uns_0'
+  Processing 'alu_DW01_add_0'
+  Processing 'alu_DW01_cmp6_0'
+  Processing 'alu_DW01_sub_0'
+  Processing 'alu_DW_cmp_0'
+  Processing 'alu'
+  Processing 'exe_top'
+  Processing 'id_exe'
+  Processing 'regfile'
+  Processing 'id_top'
+  Processing 'if_id'
+  Processing 'if_top_DW01_inc_0'
+  Processing 'pc'
+  Processing 'if_top'
+  Processing 'controller'
+  Processing 'mini_mips_pipeline'
+  Processing 'mini_mips_fakepad'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:13  262649.6      0.00       0.0    2961.1                          
+    0:00:13  262649.6      0.00       0.0    2961.1                          
+    0:00:17  280028.5      0.00       0.0       3.0                          
+    0:00:18  280028.5      0.00       0.0       3.0                          
+    0:00:18  280028.5      0.00       0.0       3.0                          
+    0:00:18  280028.5      0.00       0.0       3.0                          
+    0:00:18  280028.5      0.00       0.0       3.0                          
+    0:00:25  230076.8      0.00       0.0       3.0                          
+    0:00:26  229913.5      0.00       0.0       3.0                          
+    0:00:29  229913.5      0.00       0.0       3.0                          
+    0:00:29  229913.5      0.00       0.0       3.0                          
+    0:00:29  229913.5      0.00       0.0       3.0                          
+    0:00:29  229913.5      0.00       0.0       3.0                          
+    0:00:30  229915.1      0.00       0.0       1.0                          
+    0:00:30  229917.2      0.00       0.0       0.0                          
+    0:00:30  229917.2      0.00       0.0       0.0                          
+    0:00:30  229917.2      0.00       0.0       0.0                          
+    0:00:30  229917.2      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:30  229917.2      0.00       0.0       0.0                          
+    0:00:30  229917.2      0.00       0.0       0.0                          
+    0:00:31  229917.2      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:31  229917.2      0.00       0.0       0.0                          
+    0:00:31  229917.2      0.00       0.0       0.0                          
+    0:00:34  229816.3      0.00       0.0       0.0                          
+    0:00:36  229769.0      0.00       0.0       0.0                          
+    0:00:37  229727.9      0.00       0.0       0.0                          
+    0:00:37  229710.2      0.00       0.0       0.0                          
+    0:00:37  229708.6      0.00       0.0       0.0                          
+    0:00:37  229708.6      0.00       0.0       0.0                          
+    0:00:38  229708.6      0.00       0.0       0.0                          
+    0:00:38  229708.6      0.00       0.0       0.0                          
+    0:00:38  229708.6      0.00       0.0       0.0                          
+    0:00:38  229708.6      0.00       0.0       0.0                          
+    0:00:38  229708.6      0.00       0.0       0.0                          
+    0:00:38  229708.6      0.00       0.0       0.0                          
+    0:00:38  229708.6      0.00       0.0       0.0                          
+Loading db file '/h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db'
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'mini_mips_fakepad' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'mini_mips_inst/exe_top_inst/alu_inst/clk': 1336 load(s), 1 driver(s)
+Writing ddc file './netlists/mips_pipeline.ddc'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Warning: Design 'mini_mips_fakepad' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Writing vhdl file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.vhdl'.
+Warning: A dummy net 'n_1000' is created to connect open pin 'CI'. (VHDL-290)
+Warning: A dummy net 'n_1001' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1002' is created to connect open pin 'TC'. (VHDL-290)
+Warning: A dummy net 'n_1003' is created to connect open pin 'GT'. (VHDL-290)
+Warning: A dummy net 'n_1004' is created to connect open pin 'LE'. (VHDL-290)
+Warning: A dummy net 'n_1005' is created to connect open pin 'GE'. (VHDL-290)
+Warning: A dummy net 'n_1006' is created to connect open pin 'CI'. (VHDL-290)
+Warning: A dummy net 'n_1007' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1008' is created to connect open pin 'TC'. (VHDL-290)
+Warning: A dummy net 'n_1009' is created to connect open pin 'GE_LT'. (VHDL-290)
+Warning: A dummy net 'n_1010' is created to connect open pin 'GE_GT_EQ'. (VHDL-290)
+Warning: A dummy net 'n_1011' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1012' is created to connect open pin 'CI'. (VHDL-290)
+Warning: A dummy net 'n_1013' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1014' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1015' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1016' is created to connect open pin 'GT'. (VHDL-290)
+Warning: A dummy net 'n_1017' is created to connect open pin 'LE'. (VHDL-290)
+Warning: A dummy net 'n_1018' is created to connect open pin 'GE'. (VHDL-290)
+Warning: A dummy net 'n_1019' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1020' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1021' is created to connect open pin 'ctrl_o[BRANCH]'. (VHDL-290)
+Warning: A dummy net 'n_1022' is created to connect open pin 'ctrl_o[CALU_OP][3]'. (VHDL-290)
+Warning: A dummy net 'n_1023' is created to connect open pin 'RY'. (VHDL-290)
+Warning: A dummy net 'n_1024' is created to connect open pin 'RY'. (VHDL-290)
+Warning: A dummy net 'n_1025' is created to connect open pin 'mini_mips_o[DMEM_DATA][31]'. (VHDL-290)
+Warning: A dummy net 'n_1026' is created to connect open pin 'mini_mips_o[DMEM_DATA][30]'. (VHDL-290)
+Warning: A dummy net 'n_1027' is created to connect open pin 'mini_mips_o[DMEM_DATA][29]'. (VHDL-290)
+Warning: A dummy net 'n_1028' is created to connect open pin 'mini_mips_o[DMEM_DATA][28]'. (VHDL-290)
+Warning: A dummy net 'n_1029' is created to connect open pin 'mini_mips_o[DMEM_DATA][27]'. (VHDL-290)
+Warning: A dummy net 'n_1030' is created to connect open pin 'mini_mips_o[DMEM_DATA][26]'. (VHDL-290)
+Warning: A dummy net 'n_1031' is created to connect open pin 'mini_mips_o[DMEM_DATA][25]'. (VHDL-290)
+Warning: A dummy net 'n_1032' is created to connect open pin 'mini_mips_o[DMEM_DATA][24]'. (VHDL-290)
+Warning: A dummy net 'n_1033' is created to connect open pin 'mini_mips_o[DMEM_DATA][23]'. (VHDL-290)
+Warning: A dummy net 'n_1034' is created to connect open pin 'mini_mips_o[DMEM_DATA][22]'. (VHDL-290)
+Warning: A dummy net 'n_1035' is created to connect open pin 'mini_mips_o[DMEM_DATA][21]'. (VHDL-290)
+Warning: A dummy net 'n_1036' is created to connect open pin 'mini_mips_o[DMEM_DATA][20]'. (VHDL-290)
+Warning: A dummy net 'n_1037' is created to connect open pin 'mini_mips_o[DMEM_DATA][19]'. (VHDL-290)
+Warning: A dummy net 'n_1038' is created to connect open pin 'mini_mips_o[DMEM_DATA][18]'. (VHDL-290)
+Warning: A dummy net 'n_1039' is created to connect open pin 'mini_mips_o[DMEM_DATA][17]'. (VHDL-290)
+Warning: A dummy net 'n_1040' is created to connect open pin 'mini_mips_o[DMEM_DATA][16]'. (VHDL-290)
+Warning: A dummy net 'n_1041' is created to connect open pin 'mini_mips_o[DMEM_DATA][15]'. (VHDL-290)
+Warning: A dummy net 'n_1042' is created to connect open pin 'mini_mips_o[DMEM_DATA][14]'. (VHDL-290)
+Warning: A dummy net 'n_1043' is created to connect open pin 'mini_mips_o[DMEM_DATA][13]'. (VHDL-290)
+Warning: A dummy net 'n_1044' is created to connect open pin 'mini_mips_o[DMEM_DATA][12]'. (VHDL-290)
+Warning: A dummy net 'n_1045' is created to connect open pin 'mini_mips_o[DMEM_DATA][11]'. (VHDL-290)
+Warning: A dummy net 'n_1046' is created to connect open pin 'mini_mips_o[DMEM_DATA][10]'. (VHDL-290)
+Warning: A dummy net 'n_1047' is created to connect open pin 'mini_mips_o[DMEM_DATA][9]'. (VHDL-290)
+Warning: A dummy net 'n_1048' is created to connect open pin 'mini_mips_o[DMEM_DATA][8]'. (VHDL-290)
+Warning: A dummy net 'n_1049' is created to connect open pin 'mini_mips_o[DMEM_DATA][7]'. (VHDL-290)
+Warning: A dummy net 'n_1050' is created to connect open pin 'mini_mips_o[DMEM_DATA][6]'. (VHDL-290)
+Warning: A dummy net 'n_1051' is created to connect open pin 'mini_mips_o[DMEM_DATA][5]'. (VHDL-290)
+Warning: A dummy net 'n_1052' is created to connect open pin 'mini_mips_o[DMEM_DATA][4]'. (VHDL-290)
+Warning: A dummy net 'n_1053' is created to connect open pin 'mini_mips_o[DMEM_DATA][3]'. (VHDL-290)
+Warning: A dummy net 'n_1054' is created to connect open pin 'mini_mips_o[DMEM_DATA][2]'. (VHDL-290)
+Warning: A dummy net 'n_1055' is created to connect open pin 'mini_mips_o[DMEM_DATA][1]'. (VHDL-290)
+Warning: A dummy net 'n_1056' is created to connect open pin 'mini_mips_o[DMEM_DATA][0]'. (VHDL-290)
+Writing verilog file '/h/dk/w/ael10jso/mips_project/netlists/mips_pipeline.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 2 nets to module mini_mips_pipeline using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+Warning: Verilog writer has added 32 nets to module mini_mips_fakepad using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+ 
+****************************************
+Report : area
+Design : mini_mips_fakepad
+Version: F-2011.09-SP3
+Date   : Mon Jun  2 20:26:45 2014
+****************************************
+
+Library(s) Used:
+
+    CORE65LPHVT (File: /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db)
+    SPHDL100823 (File: /h/dk/w/ael10jso/mips_project/vhdl/mips_pipeline/mem/SPHDL100823_nom_1.20V_25C.db)
+
+Number of ports:                            2
+Number of nets:                            93
+Number of cells:                            3
+Number of combinational cells:              0
+Number of sequential cells:                 2
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       2
+
+Combinational area:       25666.159636
+Noncombinational area:    204042.482620
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          229708.642256
+Total area:                 undefined
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mini_mips_fakepad
+Version: F-2011.09-SP3
+Date   : Mon Jun  2 20:26:45 2014
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: nom_1.20V_25C   Library: SPHDL100823
+Wire Load Model Mode: top
+
+  Startpoint: dmem_inst (rising edge-triggered flip-flop clocked by myclk)
+  Endpoint: mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]
+            (rising edge-triggered flip-flop clocked by myclk)
+  Path Group: myclk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock myclk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  dmem_inst/CK (ST_SPHDL_4096x32m8_L)                     0.00 #     0.00 r
+  dmem_inst/Q[2] (ST_SPHDL_4096x32m8_L)                   2.13       2.13 r
+  mini_mips_inst/mini_mips_i[DMEM_DATA][2] (mini_mips_pipeline)
+                                                          0.00       2.13 r
+  mini_mips_inst/U45/Z (HS65_LH_AO22X9)                   0.12       2.25 r
+  mini_mips_inst/U77/Z (HS65_LH_AO222X4)                  0.14       2.40 r
+  mini_mips_inst/exe_top_inst/exe_top_i[REGS_A][2] (exe_top)
+                                                          0.00       2.40 r
+  mini_mips_inst/exe_top_inst/alu_inst/alu_i[SRC_A][2] (alu)
+                                                          0.00       2.40 r
+  mini_mips_inst/exe_top_inst/alu_inst/U369/Z (HS65_LH_BFX9)
+                                                          0.11       2.51 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/a[2] (alu_DW_mult_uns_0)
+                                                          0.00       2.51 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3325/Z (HS65_LH_IVX9)
+                                                          0.09       2.60 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2742/Z (HS65_LH_IVX9)
+                                                          0.18       2.78 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3304/Z (HS65_LHS_XOR2X6)
+                                                          0.21       2.99 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2312/Z (HS65_LH_NOR2AX3)
+                                                          0.32       3.31 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2311/Z (HS65_LH_IVX9)
+                                                          0.14       3.45 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2095/Z (HS65_LH_IVX9)
+                                                          0.11       3.56 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1963/Z (HS65_LH_AO22X9)
+                                                          0.13       3.69 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1962/Z (HS65_LHS_XOR2X6)
+                                                          0.10       3.79 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1961/S0 (HS65_LH_HA1X4)
+                                                          0.16       3.95 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2068/CO (HS65_LH_FA1X4)
+                                                          0.16       4.11 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2431/CO (HS65_LH_FA1X4)
+                                                          0.15       4.26 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2434/CO (HS65_LH_FA1X4)
+                                                          0.15       4.41 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2437/CO (HS65_LH_FA1X4)
+                                                          0.15       4.56 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2440/CO (HS65_LH_FA1X4)
+                                                          0.15       4.71 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2446/CO (HS65_LH_FA1X4)
+                                                          0.15       4.86 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2452/CO (HS65_LH_FA1X4)
+                                                          0.15       5.01 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2461/CO (HS65_LH_FA1X4)
+                                                          0.15       5.16 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2470/CO (HS65_LH_FA1X4)
+                                                          0.15       5.31 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2482/CO (HS65_LH_FA1X4)
+                                                          0.15       5.47 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2494/CO (HS65_LH_FA1X4)
+                                                          0.15       5.62 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2509/CO (HS65_LH_FA1X4)
+                                                          0.15       5.77 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2524/CO (HS65_LH_FA1X4)
+                                                          0.15       5.92 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2542/CO (HS65_LH_FA1X4)
+                                                          0.15       6.07 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2560/CO (HS65_LH_FA1X4)
+                                                          0.15       6.22 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2578/CO (HS65_LH_FA1X4)
+                                                          0.15       6.37 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2593/CO (HS65_LH_FA1X4)
+                                                          0.15       6.52 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2608/CO (HS65_LH_FA1X4)
+                                                          0.15       6.67 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2623/CO (HS65_LH_FA1X4)
+                                                          0.15       6.82 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2638/CO (HS65_LH_FA1X4)
+                                                          0.15       6.98 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2653/CO (HS65_LH_FA1X4)
+                                                          0.15       7.13 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2668/CO (HS65_LH_FA1X4)
+                                                          0.15       7.28 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2250/CO (HS65_LH_FA1X4)
+                                                          0.15       7.43 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2253/CO (HS65_LH_FA1X4)
+                                                          0.15       7.58 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2256/CO (HS65_LH_FA1X4)
+                                                          0.15       7.73 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2259/CO (HS65_LH_FA1X4)
+                                                          0.15       7.88 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2262/CO (HS65_LH_FA1X4)
+                                                          0.15       8.03 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2265/CO (HS65_LH_FA1X4)
+                                                          0.15       8.18 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2268/CO (HS65_LH_FA1X4)
+                                                          0.15       8.33 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2246/CO (HS65_LH_FA1X4)
+                                                          0.15       8.48 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2271/CO (HS65_LH_FA1X4)
+                                                          0.15       8.64 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1990/CO (HS65_LH_FA1X4)
+                                                          0.15       8.79 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1991/CO (HS65_LH_FA1X4)
+                                                          0.15       8.94 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1992/CO (HS65_LH_FA1X4)
+                                                          0.15       9.09 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1993/CO (HS65_LH_FA1X4)
+                                                          0.15       9.24 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1994/CO (HS65_LH_FA1X4)
+                                                          0.15       9.39 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1995/CO (HS65_LH_FA1X4)
+                                                          0.15       9.54 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1996/CO (HS65_LH_FA1X4)
+                                                          0.15       9.69 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1997/CO (HS65_LH_FA1X4)
+                                                          0.15       9.84 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1998/CO (HS65_LH_FA1X4)
+                                                          0.15       9.99 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1999/CO (HS65_LH_FA1X4)
+                                                          0.15      10.14 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2000/CO (HS65_LH_FA1X4)
+                                                          0.15      10.30 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2001/CO (HS65_LH_FA1X4)
+                                                          0.15      10.45 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2002/CO (HS65_LH_FA1X4)
+                                                          0.15      10.60 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2003/CO (HS65_LH_FA1X4)
+                                                          0.15      10.75 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2004/CO (HS65_LH_FA1X4)
+                                                          0.15      10.90 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2005/CO (HS65_LH_FA1X4)
+                                                          0.15      11.05 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2006/CO (HS65_LH_FA1X4)
+                                                          0.15      11.20 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2007/CO (HS65_LH_FA1X4)
+                                                          0.15      11.35 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2008/CO (HS65_LH_FA1X4)
+                                                          0.15      11.50 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2009/CO (HS65_LH_FA1X4)
+                                                          0.15      11.65 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2010/CO (HS65_LH_FA1X4)
+                                                          0.15      11.81 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2011/CO (HS65_LH_FA1X4)
+                                                          0.15      11.96 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2012/CO (HS65_LH_FA1X4)
+                                                          0.15      12.11 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2013/CO (HS65_LH_FA1X4)
+                                                          0.15      12.26 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2014/CO (HS65_LH_FA1X4)
+                                                          0.15      12.41 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2015/CO (HS65_LH_FA1X4)
+                                                          0.15      12.56 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2016/CO (HS65_LH_FA1X4)
+                                                          0.15      12.71 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2017/CO (HS65_LH_FA1X4)
+                                                          0.15      12.86 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U1989/CO (HS65_LH_FA1X4)
+                                                          0.16      13.02 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3391/Z (HS65_LHS_XOR3X2)
+                                                          0.15      13.17 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/product[63] (alu_DW_mult_uns_0)
+                                                          0.00      13.17 f
+  mini_mips_inst/exe_top_inst/alu_inst/U364/Z (HS65_LH_AO22X9)
+                                                          0.12      13.29 f
+  mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D (HS65_LH_DFPRQX9)
+                                                          0.00      13.29 f
+  data arrival time                                                 13.29
+
+  clock myclk (rise edge)                                15.00      15.00
+  clock network delay (ideal)                             0.00      15.00
+  clock uncertainty                                      -1.00      14.00
+  mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/CP (HS65_LH_DFPRQX9)
+                                                          0.00      14.00 r
+  library setup time                                     -0.13      13.87
+  data required time                                                13.87
+  --------------------------------------------------------------------------
+  data required time                                                13.87
+  data arrival time                                                -13.29
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.59
+
+
+1

@@ -1,0 +1,243 @@
+Running PRESTO HDLC
+Compiling Package Declaration CONSTANTS_PKG
+Compiling Package Body CONSTANTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration SUBTYPES_PKG
+Compiling Package Body SUBTYPES_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration RECORDS_PKG
+Compiling Package Body RECORDS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration COMPONENTS_PKG
+Compiling Package Body COMPONENTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MINI_MIPS_P
+Compiling Architecture BEHAVIORAL of MINI_MIPS_P
+Warning:  ./vhdl/mini_mips_P.vhd:17: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MINI_MIPS
+Compiling Architecture BEHAVIORAL of MINI_MIPS
+Warning:  ./vhdl/mini_mips.vhd:17: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration CONTROLLER
+Compiling Architecture BEHAVIORAL of CONTROLLER
+Warning:  ./vhdl/controller.vhd:15: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration IF_TOP
+Compiling Architecture BEHAVIORAL of IF_TOP
+Warning:  ./vhdl/if/if_top.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration PC
+Compiling Architecture BEHAVIORAL of PC
+Warning:  ./vhdl/if/pc.vhd:20: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ID_TOP
+Compiling Architecture BEHAVIORAL of ID_TOP
+Warning:  ./vhdl/id/id_top.vhd:20: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration REGFILE
+Compiling Architecture BEHAVIORAL of REGFILE
+Warning:  ./vhdl/id/regfile.vhd:19: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration EXE_TOP
+Compiling Architecture BEHAVIORAL of EXE_TOP
+Warning:  ./vhdl/exe/exe_top.vhd:19: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU
+Compiling Architecture BEHAVIORAL of ALU
+Warning:  ./vhdl/exe/alu.vhd:19: The architecture behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU_CTRL
+Compiling Architecture BEHAVIORAL of ALU_CTRL
+Warning:  ./vhdl/exe/alu_ctrl.vhd:16: The architecture Behavioral has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Warning:  ./vhdl/mini_mips_P.vhd:44: The initial value for signal 's_dummy_zero_array' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[31] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[30] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[29] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[28] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[27] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[26] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[25] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[24] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[23] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[22] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[21] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[20] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[19] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[18] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[17] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[16] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[15] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[14] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[13] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[12] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[11] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[10] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[9] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[8] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[7] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[6] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[5] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[4] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[3] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[2] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[1] of cell imem_inst' connected to ground. (ELAB-294)
+Warning:  ./vhdl/mini_mips_P.vhd:66: Floating pin 'D[0] of cell imem_inst' connected to ground. (ELAB-294)
+Presto compilation completed successfully.
+Warning: Overwriting design file '/h/dk/w/ael10jso/mips_project/mini_mips_p.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'mini_mips_p'.
+Error: Width mismatch on port 'mini_mips_o' of reference to 'mini_mips' in 'mini_mips_p'. (LINK-3)
+Warning: It is dangerous to create a clock source on inout port 'clk'. (UID-376)
+
+Warning: Operating condition nom_1.20V_25C set on design mini_mips_p has different process,
+voltage and temperatures parameters than the parameters at which target library 
+IO65LPHVT_SF_1V8_50A_7M4X0Y2Z is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'mini_mips_p'
+Error: Width mismatch on port 'mini_mips_o' of reference to 'mini_mips' in 'mini_mips_p'. (LINK-3)
+Warning: Unable to resolve reference 'mini_mips' in 'mini_mips_p'. (LINK-5)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:01  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+    0:00:02  199033.2      0.00       0.0       0.0                          
+Loading db file '/h/dk/w/ael10jso/mips_project/vhdl/mem/SPHDL100823_nom_1.20V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db'
+
+  Optimization Complete
+  ---------------------
+Writing ddc file './netlists/mips.ddc'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/h/dk/w/ael10jso/mips_project/netlists/mips.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Warning: Design contains black-box components.  These cells will have no timing information. (WT-7)
+Writing vhdl file '/h/dk/w/ael10jso/mips_project/netlists/mips.vhdl'.
+Warning: A dummy net 'n_1000' is created to connect open pin 'RY'. (VHDL-290)
+Warning: A dummy net 'n_1001' is created to connect open pin 'RY'. (VHDL-290)
+Writing verilog file '/h/dk/w/ael10jso/mips_project/netlists/mips.v'.
+ 
+****************************************
+Report : area
+Design : mini_mips_p
+Version: F-2011.09-SP3
+Date   : Thu May  8 18:53:20 2014
+****************************************
+
+Library(s) Used:
+
+    IO65LPHVT_SF_1V8_50A_7M4X0Y2Z (File: /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db)
+    SPHDL100823 (File: /h/dk/w/ael10jso/mips_project/vhdl/mem/SPHDL100823_nom_1.20V_25C.db)
+
+Number of ports:                            2
+Number of nets:                           127
+Number of cells:                            5
+Number of combinational cells:              3
+Number of sequential cells:                 2
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       3
+
+Combinational area:          0.000000
+Noncombinational area:    199033.203125
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          199033.203125
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mini_mips_p
+Version: F-2011.09-SP3
+Date   : Thu May  8 18:53:20 2014
+****************************************
+
+Operating Conditions: nom_1.20V_25C   Library: SPHDL100823
+Wire Load Model Mode: top
+
+  Startpoint: clk_pad_in/IO (internal pin)
+  Endpoint: clk (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clk_pad_in/IO (BD2SCARUDQP_1V8_SF_LIN)                  0.00       0.00 r
+  clk (inout)                                             0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

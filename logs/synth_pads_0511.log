@@ -1,0 +1,1031 @@
+Running PRESTO HDLC
+Compiling Package Declaration CONSTANTS_PKG
+Compiling Package Body CONSTANTS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration SUBTYPES_PKG
+Compiling Package Body SUBTYPES_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Package Declaration RECORDS_PKG
+Compiling Package Body RECORDS_PKG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+
+-------------------
+     7: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     8: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     6: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     3: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     6: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     6: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     6: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     6: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     7: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     7: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+
+-------------------
+     6: use work.constants_pkg.all;
+                 ^^^^^^^^^^^^^^
+[Failure] WORK.CONSTANTS_PKG is obsolete (used WORK.SUBTYPES_PKG is more recent)
+*** Presto compilation was unsuccessful. ***
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Warning: Overwriting design file '/h/dk/w/ael10jso/mips_project/mini_mips_p.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'mini_mips_p'.
+Warning: It is dangerous to create a clock source on inout port 'clk'. (UID-376)
+
+Information: There are 107 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Operating condition nom_1.20V_25C set on design mini_mips_p has different process,
+voltage and temperatures parameters than the parameters at which target library 
+IO65LPHVT_SF_1V8_50A_7M4X0Y2Z is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'controller'
+  Processing 'exe_top_DW01_add_0'
+  Processing 'alu_ctrl'
+  Processing 'alu_DW_mult_uns_1_0_0_0_0_0_0_0'
+  Processing 'alu_DW01_sub_0'
+  Processing 'alu_DW01_add_0'
+  Processing 'alu_DW_cmp_1'
+  Processing 'alu_DW_cmp_0'
+  Processing 'alu'
+  Processing 'exe_top'
+  Processing 'regfile'
+  Processing 'id_top'
+  Processing 'if_top_DW01_inc_0'
+  Processing 'pc'
+  Processing 'if_top'
+  Processing 'mini_mips'
+  Processing 'mini_mips_p'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	mini_mips_inst/U31/A mini_mips_inst/U31/Z mini_mips_inst/id_top_inst/regfile_inst/U2739/A mini_mips_inst/id_top_inst/regfile_inst/U2739/Z mini_mips_inst/id_top_inst/regfile_inst/U1058/A mini_mips_inst/id_top_inst/regfile_inst/U1058/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U558/A mini_mips_inst/exe_top_inst/alu_inst/r322/U558/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U643/A mini_mips_inst/exe_top_inst/alu_inst/r322/U643/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U642/A mini_mips_inst/exe_top_inst/alu_inst/r322/U642/Z mini_mips_inst/exe_top_inst/alu_inst/U392/F mini_mips_inst/exe_top_inst/alu_inst/U392/Z mini_mips_inst/exe_top_inst/alu_inst/U374/A mini_mips_inst/exe_top_inst/alu_inst/U374/Z 
+Information: Timing loop detected. (OPT-150)
+	mini_mips_inst/exe_top_inst/alu_inst/r322/U729/A mini_mips_inst/exe_top_inst/alu_inst/r322/U729/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U582/A mini_mips_inst/exe_top_inst/alu_inst/r322/U582/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U671/A mini_mips_inst/exe_top_inst/alu_inst/r322/U671/Z mini_mips_inst/exe_top_inst/alu_inst/U473/A mini_mips_inst/exe_top_inst/alu_inst/U473/Z mini_mips_inst/exe_top_inst/alu_inst/U411/F mini_mips_inst/exe_top_inst/alu_inst/U411/Z mini_mips_inst/exe_top_inst/alu_inst/U393/A mini_mips_inst/exe_top_inst/alu_inst/U393/Z mini_mips_inst/U32/A mini_mips_inst/U32/Z mini_mips_inst/id_top_inst/regfile_inst/U2740/A mini_mips_inst/id_top_inst/regfile_inst/U2740/Z mini_mips_inst/id_top_inst/regfile_inst/U1074/A mini_mips_inst/id_top_inst/regfile_inst/U1074/Z 
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1058'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1074'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U514'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U594'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U34'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U962'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U402'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U978'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U418'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U610'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U50'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U994'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U434'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1010'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U450'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1026'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U466'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1042'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U626'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U66'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U642'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U82'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U658'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U98'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U674'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1090'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U482'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U882'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U322'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U898'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U338'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U946'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U386'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U930'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U370'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U114'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U178'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U530'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U130'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U354'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U914'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U866'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U306'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U850'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U290'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U834'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U274'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U818'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U258'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U802'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U242'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U786'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U226'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U770'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U210'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U754'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U194'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U722'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U162'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U706'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U146'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U738'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U690'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U498'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:23  264586.5      1.77     868.3    2431.9                          
+    0:00:23  264586.5      1.77     868.3    2431.9                          
+    0:00:28  278971.8      1.70     210.7     377.7                          
+    0:00:56  276910.0      0.31      20.2      61.0                          
+    0:00:57  276910.0      0.31      20.2      61.0                          
+    0:00:57  276910.0      0.31      20.2      61.0                          
+    0:00:57  276897.5      0.31      20.4      61.0                          
+    0:00:57  276897.5      0.31      20.4      61.0                          
+    0:01:03  243457.8      2.09     341.8      61.0                          
+    0:01:08  243105.3      1.62     280.6      58.0                          
+    0:01:10  242751.7      1.59     235.6      58.0                          
+    0:01:11  242750.1      1.48     233.3      58.0                          
+    0:01:12  242668.0      1.49     197.3      57.0                          
+    0:01:13  242697.6      1.40     232.6      57.0                          
+    0:01:13  242675.2      1.40     156.2      57.0                          
+    0:01:14  242617.5      1.45     183.4      57.0                          
+    0:01:15  242648.7      1.26     166.0      57.0                          
+    0:01:15  242621.7      1.40     162.5      57.0                          
+    0:01:16  242634.7      1.28     149.5      57.0                          
+    0:01:16  242649.2      1.23     144.7      57.0                          
+    0:01:16  242665.4      1.14     140.3      56.0                          
+    0:01:16  242672.6      1.11     139.1      56.0                          
+    0:01:16  242627.9      1.07     137.4      56.0                          
+    0:01:17  242596.7      1.07     137.4      56.0                          
+    0:01:17  242605.0      1.04     135.4      56.0                          
+    0:01:18  242626.4      1.00     134.5      54.0                          
+    0:01:18  242663.3      1.00     134.4      43.0                          
+    0:01:18  242663.3      1.00     134.4      43.0                          
+    0:01:18  242663.3      1.00     134.4      43.0                          
+    0:01:19  242697.6      1.00     125.0      19.0                          
+    0:01:19  242710.1      0.97     123.7      13.0                          
+    0:01:19  242710.6      0.96     123.5      12.0                          
+    0:01:19  242710.6      0.96     123.5      12.0                          
+    0:01:19  242710.6      0.96     123.5      12.0                          
+    0:01:19  242710.6      0.96     123.5      12.0                          
+    0:01:21  242755.3      0.81      65.0      17.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:01:22  242815.6      0.76      62.0      17.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:01:23  242862.4      0.69      58.4      34.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D
+    0:01:24  242924.8      0.67      57.2      34.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D
+    0:01:25  242995.6      0.64      36.7      34.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][22]/D
+    0:01:26  242988.3      0.60      35.1      34.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][29]/D
+    0:01:27  243111.0      0.58      32.9      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][29]/D
+    0:01:32  243631.5      0.52      27.6      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][22]/D
+    0:01:36  243775.0      0.45      22.8      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:01:40  243924.3      0.39      18.1      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:01:42  243908.2      0.37      17.6      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][20]/D
+    0:01:45  244002.8      0.35      15.6      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][16]/D
+    0:01:47  244089.6      0.34      14.7      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D
+    0:01:50  244213.4      0.32      14.1      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][14]/D
+    0:01:52  244283.6      0.31      12.8      42.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:52  244283.6      0.31      12.8      42.0                          
+    0:01:54  244419.3      0.30      12.3      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:01:55  244424.0      0.29      12.1      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:01:57  244447.9      0.28      11.5      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:01:58  244415.2      0.28      11.2      42.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:01:59  244421.9      0.28      11.0      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:01  244429.2      0.26      10.5      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:02  244419.3      0.26      10.1      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:03  244422.4      0.25       9.9      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:04  244469.8      0.25      12.0      44.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:05  244472.4      0.25      11.9      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:07  244416.2      0.24      11.6      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:07  244436.5      0.24      11.6      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:09  244441.7      0.24      11.7      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:09  244445.8      0.24      11.7      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:10  244453.6      0.23      11.5      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][26]/D
+    0:02:11  244434.4      0.23      11.6      45.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:12  244455.7      0.23      11.6      54.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:13  244426.6      0.23      11.5      54.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:16  244470.3      0.22      11.1      54.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:17  244450.5      0.21      10.8      68.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:18  244484.3      0.21      10.5      68.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:18  244501.5      0.20      10.4      68.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:19  244507.2      0.20      10.3      68.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][6]/D
+    0:02:20  244500.4      0.20      10.3      68.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:21  244508.8      0.20       9.2      68.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:23  244515.0      0.20       9.2      68.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:23  244496.3      0.20       9.1      71.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:24  244497.8      0.19       9.1      71.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:25  244490.6      0.19       9.1      87.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:26  244504.1      0.19       8.6      87.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:28  244512.9      0.19       8.7      87.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:29  244532.7      0.18       8.6      87.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:30  244540.5      0.18       8.7      87.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:31  244547.8      0.18       8.6      87.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:32  244556.6      0.18       8.5      87.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:33  244518.1      0.17       8.3      87.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:34  244503.0      0.17       8.3      99.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:35  244524.4      0.17       8.2      99.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:36  244539.4      0.17       8.2      99.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:38  244559.2      0.17       7.7      99.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][24]/D
+    0:02:39  244586.2      0.16       7.6      99.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:41  244586.8      0.16       8.0      99.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:42  244585.2      0.16       7.9     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:43  244595.6      0.16       7.8     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:44  244603.4      0.16      13.1     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:45  244617.4      0.16      13.1     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:46  244629.4      0.15      13.0     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:47  244672.0      0.15      13.2     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:48  244674.6      0.15      13.1     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:49  244673.1      0.15      13.1     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:50  244674.6      0.15      13.0     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:51  244688.2      0.15      13.0     113.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:52  244715.7      0.15      11.8     119.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:53  244737.0      0.14      11.8     119.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:54  244758.9      0.14      11.7     119.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:02:55  244753.7      0.14      11.7     119.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:56  244773.4      0.14      11.7     119.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:57  244768.8      0.14      11.7     128.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:58  244762.0      0.14      11.6     128.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:02:59  244770.8      0.14      11.2     128.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:00  244799.4      0.13      11.0     128.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][15]/D
+    0:03:01  244804.6      0.13      11.0     128.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:03  244799.4      0.13      12.2     128.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:04  244801.0      0.13      12.1     134.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][26]/D
+    0:03:05  244816.1      0.13      12.1     134.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:06  244819.2      0.13       7.6     147.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:07  244824.9      0.12       7.5     156.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][15]/D
+    0:03:08  244820.8      0.12       7.4     170.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:09  244816.6      0.12       7.3     170.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:11  244825.4      0.12       7.0     170.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:12  244841.6      0.12       7.1     173.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:15  244843.6      0.12       6.8     173.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:16  244847.8      0.12       6.8     173.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:17  244852.0      0.12       6.8     173.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:17  244861.3      0.11       6.7     173.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:18  244872.2      0.11       6.7     173.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:20  244869.1      0.11       6.6     177.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:21  244885.8      0.11       6.6     177.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:03:21  244843.6      0.11       6.6     177.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:23  244857.2      0.11       6.3     177.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:24  244856.1      0.11       6.3     177.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:03:25  244856.1      0.11       6.2     171.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:26  244884.2      0.11       6.2     182.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:27  244871.2      0.11       6.2     195.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:03:28  244843.6      0.11       6.2     206.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:29  244846.2      0.10       6.2     207.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:30  244882.6      0.10       5.9     207.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:30  244898.2      0.10       5.9     207.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:31  244888.9      0.10       5.7     221.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:03:33  244885.2      0.10       5.6     221.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:33  244886.3      0.10       5.6     221.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:34  244885.2      0.10       5.6     221.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:03:35  244881.1      0.10       5.6     221.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:36  244898.8      0.10       5.6     221.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:37  244849.9      0.10       5.5     233.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:38  244865.0      0.10       5.5     233.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:39  244861.3      0.09       5.4     233.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:40  244856.6      0.09       5.4     233.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:41  244864.4      0.09       5.3     233.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:41  244848.3      0.09       5.3     233.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:42  244849.9      0.09       5.3     243.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:03:43  244847.8      0.09       5.9     254.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:44  244880.6      0.09       5.9     254.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:45  244885.2      0.09       5.9     254.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:46  244896.7      0.09       5.9     264.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:47  244896.7      0.09       5.7     264.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:03:49  244892.0      0.09       5.7     267.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:50  244895.1      0.09       5.4     267.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:52  244878.5      0.09       5.4     281.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:53  244883.7      0.09       5.4     281.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:54  244892.0      0.08       5.4     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:56  244889.9      0.08       5.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:56  244892.5      0.08       5.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:57  244895.6      0.08       5.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:58  244909.7      0.08       5.1     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:03:59  244922.7      0.08       5.1     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:04:00  244895.6      0.08       5.0     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:01  244894.6      0.08       5.0     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:02  244897.7      0.08       5.0     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:03  244904.5      0.08       5.0     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:04  244912.8      0.08       4.7     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:05  244911.2      0.08       4.5     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:07  244921.6      0.08       4.5     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:08  244938.8      0.08       4.5     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:09  244933.6      0.08       4.5     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:10  244916.4      0.08       4.4     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:11  244933.1      0.07       4.4     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:12  244959.6      0.07       4.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:13  244959.6      0.07       4.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:14  244955.4      0.07       4.4     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:17  244957.0      0.07       4.4     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:18  244958.6      0.07       4.4     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D
+    0:04:20  244961.2      0.07       4.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:21  244980.4      0.07       4.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:04:23  244958.6      0.07       4.2     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:24  244970.5      0.07       4.2     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:25  244972.6      0.07       3.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:27  244979.9      0.07       3.3     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:04:28  244975.2      0.07       3.2     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:30  244979.9      0.07       3.2     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:04:31  244980.4      0.07       3.2     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:32  245014.7      0.06       3.2     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:33  245023.6      0.06       3.1     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:34  245020.4      0.06       2.9     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:36  245041.2      0.06       2.9     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:37  245041.8      0.06       3.0     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:38  245044.4      0.06       3.0     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:04:39  245058.9      0.06       2.9     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:40  245060.0      0.06       2.8     278.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:04:40  245082.3      0.06       2.8     279.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:42  245084.9      0.06       2.8     283.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:42  245089.6      0.06       2.8     293.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:43  245096.9      0.06       2.8     293.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:04:44  245131.2      0.06       2.7     294.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][26]/D
+    0:04:45  245140.6      0.06       2.7     294.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:46  245153.6      0.05       2.7     294.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:47  245173.8      0.05       2.6     294.0 mini_mips_inst/if_top_inst/pc_inst/pc_o_reg[11]/D
+    0:04:48  245173.8      0.05       2.5     294.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][20]/D
+    0:04:49  245155.6      0.05       2.5     294.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:50  245173.3      0.05       2.5     294.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:51  245175.4      0.05       2.5     305.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:52  245155.6      0.05       2.4     305.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:04:53  245151.5      0.05       2.4     305.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:53  245141.1      0.05       2.4     305.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:56  245142.1      0.05       2.4     305.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][13]/D
+    0:04:57  245145.8      0.05       2.3     305.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][20]/D
+    0:04:57  245154.1      0.05       2.3     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:04:58  245166.6      0.05       2.3     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:04:58  245144.2      0.05       2.2     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:04:59  245154.1      0.04       2.2     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][21]/D
+    0:04:59  245162.9      0.04       2.1     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][20]/D
+    0:05:00  245174.9      0.04       2.0     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][4]/D
+    0:05:00  245178.5      0.04       1.9     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][3]/D
+    0:05:00  245172.8      0.04       1.8     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][6]/D
+    0:05:01  245168.6      0.04       1.8     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][14]/D
+    0:05:01  245176.4      0.04       1.7     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:02  245181.6      0.04       1.7     296.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][6]/D
+    0:05:02  245193.6      0.04       1.3     284.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][23]/D
+    0:05:03  245225.8      0.03       1.3     272.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:05:03  245230.0      0.03       1.2     272.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][20]/D
+    0:05:04  245232.6      0.03       1.2     272.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:04  245236.8      0.03       1.2     272.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:04  245243.5      0.03       1.2     271.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:05  245245.6      0.03       1.2     271.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:05  245252.4      0.03       1.2     271.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:05:06  245255.0      0.03       1.2     271.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:06  245262.8      0.03       1.0     266.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:05:06  245263.8      0.03       1.0     266.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:07  245260.7      0.03       1.0     266.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:05:08  245253.4      0.03       1.0     266.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:08  245267.4      0.03       1.0     261.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:09  245274.7      0.03       1.0     261.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:09  245309.0      0.03       1.0     253.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:11  245309.0      0.03       0.9     253.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:05:11  245319.4      0.03       1.0     248.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:12  245329.3      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:12  245326.7      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:13  245331.4      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:13  245337.1      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:14  245341.3      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:14  245350.1      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:16  245343.4      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:17  245345.4      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:05:17  245354.8      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][10]/D
+    0:05:18  245355.3      0.03       0.9     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:18  245358.4      0.02       0.8     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:19  245359.0      0.02       0.7     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][20]/D
+    0:05:20  245364.2      0.02       0.6     241.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:21  245375.6      0.02       0.6     242.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:21  245390.2      0.02       0.6     240.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:22  245381.3      0.02       0.5     240.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:22  245387.6      0.02       0.5     240.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:22  245385.0      0.02       0.5     240.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:23  245389.1      0.02       0.5     240.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][26]/D
+    0:05:23  245391.2      0.02       0.5     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][26]/D
+    0:05:23  245392.2      0.02       0.5     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][24]/D
+    0:05:24  245377.2      0.02       0.5     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:26  245375.1      0.02       0.5     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:27  245380.8      0.02       0.5     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:27  245377.2      0.02       0.5     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:28  245376.1      0.02       0.4     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:28  245376.6      0.02       0.4     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][30]/D
+    0:05:29  245373.0      0.02       0.4     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:29  245374.0      0.02       0.4     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:30  245376.6      0.02       0.4     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:30  245375.6      0.02       0.4     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][18]/D
+    0:05:31  245376.6      0.01       0.3     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:33  245381.3      0.01       0.3     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:33  245389.6      0.01       0.3     239.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][12]/D
+    0:05:34  245373.0      0.01       0.3     238.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:34  245387.0      0.01       0.3     238.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:35  245389.1      0.01       0.3     237.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:35  245391.7      0.01       0.3     237.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:36  245395.9      0.01       0.3     237.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:37  245400.0      0.01       0.3     237.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:37  245399.5      0.01       0.2     230.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][21]/D
+    0:05:38  245402.1      0.01       0.2     223.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:39  245405.8      0.01       0.2     222.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:39  245410.4      0.01       0.2     222.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][3]/D
+    0:05:40  245448.4      0.01       0.2     222.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][21]/D
+    0:05:41  245441.1      0.01       0.2     222.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:41  245448.4      0.01       0.2     222.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:42  245448.4      0.01       0.2     222.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:43  245441.6      0.01       0.2     209.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:43  245441.6      0.01       0.2     209.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:44  245442.2      0.01       0.2     209.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:45  245459.8      0.01       0.2     205.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:46  245459.8      0.01       0.2     205.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:46  245466.1      0.01       0.2     205.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:46  245466.1      0.01       0.2     205.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:47  245471.8      0.01       0.2     205.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:48  245473.9      0.01       0.2     205.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][21]/D
+    0:05:49  245477.5      0.01       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:49  245482.7      0.01       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:50  245487.4      0.01       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:50  245493.1      0.01       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][21]/D
+    0:05:50  245495.7      0.01       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:52  245500.9      0.01       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:53  245500.9      0.00       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:54  245494.2      0.00       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:54  245495.7      0.00       0.1     194.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][12]/D
+    0:05:55  245497.8      0.00       0.0     182.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:55  245506.6      0.00       0.0     182.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D
+    0:05:55  245508.7      0.00       0.0     182.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:56  245508.2      0.00       0.0     182.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:56  245505.6      0.00       0.0     188.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:57  245506.1      0.00       0.0     187.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:57  245506.6      0.00       0.0     187.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:05:58  245504.0      0.00       0.0     187.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:00  245504.0      0.00       0.0     187.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:00  245502.5      0.00       0.0     187.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:01  245501.4      0.00       0.0     187.0                          
+    0:06:03  245499.9      0.00       0.0     187.0                          
+
+
+  Beginning Design Rule Fixing  (max_fanout)
+  ----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:06:03  245499.9      0.00       0.0     187.0                          
+    0:06:04  245508.7      0.00       0.0     175.0 mini_mips_inst/exe_top_inst/alu_inst/mult_71/net330774
+    0:06:05  245515.0      0.00       0.0     154.0 mini_mips_inst/id_top_inst/regfile_inst/net327833
+    0:06:05  245521.2      0.00       0.0     141.0 mini_mips_inst/id_top_inst/regfile_inst/net326840
+    0:06:09  245526.4      0.00       0.0     139.0 mini_mips_inst/exe_top_inst/alu_inst/mult_71/n161
+    0:06:10  245541.5      0.00       0.0     130.0 mini_mips_inst/exe_top_inst/alu_inst/mult_71/net330774
+    0:06:11  245552.4      0.00       0.0     121.0 mini_mips_inst/exe_top_inst/alu_inst/net329374
+    0:06:12  245569.6      0.00       0.0     111.0 mini_mips_inst/exe_top_inst/alu_inst/alu_i[SRC_B][25]
+    0:06:14  245564.9      0.01       0.0      96.0 mini_mips_inst/exe_top_inst/alu_inst/mult_71/net330864
+    0:06:15  245574.2      0.03       0.9      33.0 mini_mips_inst/exe_top_inst/alu_inst/mult_71/n90
+    0:06:15  245572.2      0.03       0.9       1.0 mini_mips_inst/exe_top_inst/alu_inst/mult_71/net330728
+    0:06:17  245600.2      0.02       0.7       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:18  245607.0      0.02       0.6       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][27]/D
+    0:06:19  245591.4      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][12]/D
+    0:06:20  245600.8      0.01       0.1       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][12]/D
+    0:06:21  245601.8      0.01       0.1       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:22  245601.8      0.01       0.1       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:23  245603.9      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:24  245608.6      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:26  245616.9      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:27  245635.6      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:28  245630.9      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:06:28  245630.9      0.00       0.0       0.0                          
+    0:06:28  245630.9      0.00       0.0       0.0                          
+    0:06:30  245082.3      0.06       2.1       0.0                          
+    0:06:31  244953.9      0.06       2.2       0.0                          
+    0:06:33  244862.9      0.07       2.3       0.0                          
+    0:06:33  244834.8      0.07       2.3       0.0                          
+    0:06:33  244825.4      0.07       2.3       0.0                          
+    0:06:33  244825.4      0.07       2.3       0.0                          
+    0:06:35  244856.1      0.03       0.7       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D
+    0:06:36  244881.1      0.03       0.6       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D
+    0:06:37  244891.5      0.02       0.5       0.0                          
+    0:06:38  244870.7      0.02       0.5       0.0                          
+    0:06:39  244874.8      0.02       0.4       0.0                          
+    0:06:41  244890.4      0.02       0.4       0.0                          
+    0:06:41  244890.4      0.02       0.4       0.0                          
+    0:06:43  243858.8      0.40      14.4       0.0                          
+    0:06:43  243379.8      0.41      44.4       0.0                          
+    0:06:43  243299.2      0.46      47.6       0.0                          
+    0:06:43  243299.2      0.46      47.6       0.0                          
+    0:06:43  243299.2      0.46      47.6       0.0                          
+    0:06:44  243299.2      0.46      47.6       0.0                          
+    0:06:44  243299.2      0.46      47.6       0.0                          
+    0:06:44  243299.2      0.46      47.6       0.0                          
+    0:06:45  243426.1      0.12      15.4       0.0 mini_mips_inst/id_top_inst/regfile_inst/registers_reg[10][10]/D
+    0:06:46  243502.0      0.09      11.3       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][19]/D
+    0:06:47  243615.4      0.07       9.6       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][5]/D
+    0:06:48  243647.6      0.07       7.4       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:49  243651.3      0.06       6.6       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:50  243671.6      0.05       6.3       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:51  243740.7      0.05       6.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][31]/D
+    0:06:55  243887.4      0.05       4.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:56  243912.3      0.04       4.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:58  243962.2      0.04       3.8       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:06:59  243965.9      0.04       3.8       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:00  243975.8      0.03       3.7       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][19]/D
+    0:07:01  243971.6      0.03       3.7       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:02  243968.0      0.03       3.4       0.0 mini_mips_inst/id_top_inst/regfile_inst/registers_reg[2][2]/D
+    0:07:03  243975.2      0.03       3.4       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:05  243989.3      0.03       2.8       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:07  243990.8      0.03       2.4       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][19]/D
+    0:07:08  244001.2      0.02       2.4       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:09  243984.6      0.02       2.3       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:11  244041.8      0.02       0.9       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:12  244049.6      0.02       0.8       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:13  244105.8      0.02       0.8       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:14  244133.8      0.02       0.4       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:16  244159.3      0.02       0.3       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:17  244165.6      0.02       0.3       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:18  244188.4      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:20  244189.5      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:21  244192.6      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:22  244208.2      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:23  244222.2      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:24  244252.9      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:25  244269.0      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:25  244267.0      0.01       0.2       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:26  244285.7      0.01       0.1       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:27  244287.8      0.01       0.1       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:29  244300.2      0.01       0.1       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:30  244337.7      0.01       0.1       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:31  244369.4      0.01       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:32  244397.0      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:33  244411.5      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][19]/D
+    0:07:35  244417.2      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:36  244436.5      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][28]/D
+    0:07:38  244440.6      0.00       0.0       0.0 mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][23]/D
+Loading db file '/h/dk/w/ael10jso/mips_project/vhdl/mem/SPHDL100823_nom_1.20V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db'
+Loading db file '/usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db'
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'mini_mips_p' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'mini_mips_inst/exe_top_inst/alu_inst/clk': 1070 load(s), 1 driver(s)
+Writing ddc file './netlists/mips.ddc'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/h/dk/w/ael10jso/mips_project/netlists/mips.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Warning: Design 'mini_mips_p' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Timing loop detected. (OPT-150)
+	mini_mips_inst/U14/A mini_mips_inst/U14/Z mini_mips_inst/id_top_inst/regfile_inst/U2527/A mini_mips_inst/id_top_inst/regfile_inst/U2527/Z mini_mips_inst/id_top_inst/regfile_inst/U1058/A mini_mips_inst/id_top_inst/regfile_inst/U1058/Z mini_mips_inst/exe_top_inst/alu_inst/U20/A mini_mips_inst/exe_top_inst/alu_inst/U20/Z mini_mips_inst/exe_top_inst/alu_inst/U21/A mini_mips_inst/exe_top_inst/alu_inst/U21/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U518/A mini_mips_inst/exe_top_inst/alu_inst/r322/U518/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U614/A mini_mips_inst/exe_top_inst/alu_inst/r322/U614/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U613/A mini_mips_inst/exe_top_inst/alu_inst/r322/U613/Z mini_mips_inst/exe_top_inst/alu_inst/U94/F mini_mips_inst/exe_top_inst/alu_inst/U94/Z mini_mips_inst/exe_top_inst/alu_inst/U412/A mini_mips_inst/exe_top_inst/alu_inst/U412/Z mini_mips_inst/U11/A mini_mips_inst/U11/Z 
+Information: Timing loop detected. (OPT-150)
+	mini_mips_inst/exe_top_inst/alu_inst/r322/U433/A mini_mips_inst/exe_top_inst/alu_inst/r322/U433/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U577/A mini_mips_inst/exe_top_inst/alu_inst/r322/U577/Z mini_mips_inst/exe_top_inst/alu_inst/r322/U706/A mini_mips_inst/exe_top_inst/alu_inst/r322/U706/Z mini_mips_inst/exe_top_inst/alu_inst/U440/A mini_mips_inst/exe_top_inst/alu_inst/U440/Z mini_mips_inst/exe_top_inst/alu_inst/U498/F mini_mips_inst/exe_top_inst/alu_inst/U498/Z mini_mips_inst/exe_top_inst/alu_inst/U521/A mini_mips_inst/exe_top_inst/alu_inst/U521/Z mini_mips_inst/U70/A mini_mips_inst/U70/Z mini_mips_inst/id_top_inst/regfile_inst/U396/A mini_mips_inst/id_top_inst/regfile_inst/U396/Z mini_mips_inst/id_top_inst/regfile_inst/U1074/A mini_mips_inst/id_top_inst/regfile_inst/U1074/Z mini_mips_inst/exe_top_inst/alu_inst/U95/A mini_mips_inst/exe_top_inst/alu_inst/U95/Z mini_mips_inst/exe_top_inst/alu_inst/U96/A mini_mips_inst/exe_top_inst/alu_inst/U96/Z 
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1058'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1074'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U514'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U594'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U34'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U962'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U402'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U978'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U418'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U610'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U50'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U994'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U434'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1010'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U450'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1026'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U466'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1042'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U626'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U66'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U642'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U82'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U658'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U98'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U674'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U1090'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U482'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U882'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U322'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U898'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U338'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U946'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U386'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U930'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U370'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U114'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U178'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U530'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U130'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U354'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U914'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U866'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U306'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U850'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U290'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U834'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U274'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U818'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U258'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U802'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U242'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U786'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U226'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U770'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U210'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U754'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U194'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U722'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U162'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U706'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U146'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U738'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U690'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'mini_mips_inst/id_top_inst/regfile_inst/U498'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Writing vhdl file '/h/dk/w/ael10jso/mips_project/netlists/mips.vhdl'.
+Warning: A dummy net 'n_1000' is created to connect open pin 'CI'. (VHDL-290)
+Warning: A dummy net 'n_1001' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1002' is created to connect open pin 'CI'. (VHDL-290)
+Warning: A dummy net 'n_1003' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1004' is created to connect open pin 'TC'. (VHDL-290)
+Warning: A dummy net 'n_1005' is created to connect open pin 'GE_LT'. (VHDL-290)
+Warning: A dummy net 'n_1006' is created to connect open pin 'GE_GT_EQ'. (VHDL-290)
+Warning: A dummy net 'n_1007' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1008' is created to connect open pin 'TC'. (VHDL-290)
+Warning: A dummy net 'n_1009' is created to connect open pin 'GE_LT'. (VHDL-290)
+Warning: A dummy net 'n_1010' is created to connect open pin 'GE_GT_EQ'. (VHDL-290)
+Warning: A dummy net 'n_1011' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1012' is created to connect open pin 'CI'. (VHDL-290)
+Warning: A dummy net 'n_1013' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1014' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1015' is created to connect open pin 'EQ_NE'. (VHDL-290)
+Warning: A dummy net 'n_1016' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1017' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1018' is created to connect open pin 'CO'. (VHDL-290)
+Warning: A dummy net 'n_1019' is created to connect open pin 'ctrl_o[CALU_OP][3]'. (VHDL-290)
+Warning: A dummy net 'n_1020' is created to connect open pin 'RY'. (VHDL-290)
+Warning: A dummy net 'n_1021' is created to connect open pin 'RY'. (VHDL-290)
+Writing verilog file '/h/dk/w/ael10jso/mips_project/netlists/mips.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 1 nets to module mini_mips using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+ 
+****************************************
+Report : area
+Design : mini_mips_p
+Version: F-2011.09-SP3
+Date   : Sun May 11 17:32:34 2014
+****************************************
+
+Library(s) Used:
+
+    CORE65LPHVT (File: /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPHVT_5.1/libs/CORE65LPHVT_nom_1.20V_25C.db)
+    IO65LPHVT_SF_1V8_50A_7M4X0Y2Z (File: /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/libs/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_nom_1.00V_1.80V_25C.db)
+    SPHDL100823 (File: /h/dk/w/ael10jso/mips_project/vhdl/mem/SPHDL100823_nom_1.20V_25C.db)
+
+Number of ports:                            2
+Number of nets:                           127
+Number of cells:                            5
+Number of combinational cells:              2
+Number of sequential cells:                 2
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       3
+
+Combinational area:       34160.359421
+Noncombinational area:    210280.282727
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          244440.642148
+Total area:                 undefined
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mini_mips_p
+Version: F-2011.09-SP3
+Date   : Sun May 11 17:32:34 2014
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: nom_1.20V_25C   Library: SPHDL100823
+Wire Load Model Mode: top
+
+  Startpoint: imem_inst (rising edge-triggered flip-flop clocked by myclk)
+  Endpoint: mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][23]
+            (rising edge-triggered flip-flop clocked by myclk)
+  Path Group: myclk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock myclk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  imem_inst/CK (ST_SPHDL_4096x32m8_L)                     0.00 #     0.00 r
+  imem_inst/Q[19] (ST_SPHDL_4096x32m8_L)                  2.14       2.14 r
+  mini_mips_inst/mini_mips_i[IMEM_DATA][19] (mini_mips)
+                                                          0.00       2.14 r
+  mini_mips_inst/id_top_inst/id_top_i[INSTRUCTION][19] (id_top)
+                                                          0.00       2.14 r
+  mini_mips_inst/id_top_inst/regfile_inst/regfile_i[ADRREAD1][3] (regfile)
+                                                          0.00       2.14 r
+  mini_mips_inst/id_top_inst/regfile_inst/U144/Z (HS65_LH_IVX27)
+                                                          0.03       2.17 f
+  mini_mips_inst/id_top_inst/regfile_inst/U193/Z (HS65_LH_NAND3X6)
+                                                          0.03       2.20 r
+  mini_mips_inst/id_top_inst/regfile_inst/U1239/Z (HS65_LH_IVX18)
+                                                          0.03       2.23 f
+  mini_mips_inst/id_top_inst/regfile_inst/U486/Z (HS65_LH_NAND2X14)
+                                                          0.04       2.28 r
+  mini_mips_inst/id_top_inst/regfile_inst/U479/Z (HS65_LH_IVX4)
+                                                          0.05       2.32 f
+  mini_mips_inst/id_top_inst/regfile_inst/U1264/Z (HS65_LH_AOI22X4)
+                                                          0.07       2.39 r
+  mini_mips_inst/id_top_inst/regfile_inst/U3583/Z (HS65_LH_OAI212X5)
+                                                          0.08       2.47 f
+  mini_mips_inst/id_top_inst/regfile_inst/U58/Z (HS65_LH_NOR4X35)
+                                                          0.15       2.63 r
+  mini_mips_inst/id_top_inst/regfile_inst/U3584/Z (HS65_LH_AO12X18)
+                                                          0.06       2.69 r
+  mini_mips_inst/id_top_inst/regfile_inst/U386/Z (HS65_LH_OAI12X18)
+                                                          0.04       2.72 f
+  mini_mips_inst/id_top_inst/regfile_inst/regfile_o[READ_DATA1][18] (regfile)
+                                                          0.00       2.72 f
+  mini_mips_inst/id_top_inst/id_top_o[REG_B][18] (id_top)
+                                                          0.00       2.72 f
+  mini_mips_inst/exe_top_inst/exe_top_i[REGS_B][18] (exe_top)
+                                                          0.00       2.72 f
+  mini_mips_inst/exe_top_inst/U10/Z (HS65_LH_MUX21X44)
+                                                          0.10       2.82 f
+  mini_mips_inst/exe_top_inst/alu_inst/alu_i[SRC_B][18] (alu)
+                                                          0.00       2.82 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/b[18] (alu_DW_mult_uns_1_0_0_0_0_0_0_0_0)
+                                                          0.00       2.82 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3594/Z (HS65_LH_IVX44)
+                                                          0.03       2.85 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2953/Z (HS65_LH_IVX53)
+                                                          0.03       2.88 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3369/Z (HS65_LH_XNOR2X9)
+                                                          0.10       2.98 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3978/Z (HS65_LH_OAI22X11)
+                                                          0.06       3.04 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U5402/S0 (HS65_LHS1_FA1X9)
+                                                          0.16       3.20 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U5401/S0 (HS65_LHS1_FA1X9)
+                                                          0.11       3.31 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3631/CO (HS65_LHS1_FA1X21)
+                                                          0.16       3.48 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3004/S0 (HS65_LHS1_FA1X35)
+                                                          0.11       3.59 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U4393/S0 (HS65_LHS2_FA1X18)
+                                                          0.17       3.75 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U4597/CO (HS65_LHS2_FA1X18)
+                                                          0.09       3.85 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3541/Z (HS65_LH_NOR2X9)
+                                                          0.05       3.90 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3543/Z (HS65_LH_IVX18)
+                                                          0.03       3.92 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2799/Z (HS65_LH_NAND2X14)
+                                                          0.03       3.95 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3354/Z (HS65_LH_OAI21X12)
+                                                          0.04       3.99 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U2966/Z (HS65_LH_AOI21X17)
+                                                          0.06       4.05 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U4348/Z (HS65_LH_OAI12X5)
+                                                          0.05       4.11 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3856/Z (HS65_LH_AOI12X6)
+                                                          0.05       4.16 r
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U3899/Z (HS65_LH_OAI12X5)
+                                                          0.06       4.21 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/U5363/Z (HS65_LHS_XNOR2X6)
+                                                          0.08       4.29 f
+  mini_mips_inst/exe_top_inst/alu_inst/mult_71/product[55] (alu_DW_mult_uns_1_0_0_0_0_0_0_0_0)
+                                                          0.00       4.29 f
+  mini_mips_inst/exe_top_inst/alu_inst/U741/Z (HS65_LH_MUX21I1X6)
+                                                          0.08       4.37 f
+  mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][23]/D (HS65_LHS_DFPRQNX35)
+                                                          0.00       4.37 f
+  data arrival time                                                  4.37
+
+  clock myclk (rise edge)                                 5.50       5.50
+  clock network delay (ideal)                             0.00       5.50
+  clock uncertainty                                      -1.00       4.50
+  mini_mips_inst/exe_top_inst/alu_inst/HI_LO_c_reg[HI][23]/CP (HS65_LHS_DFPRQNX35)
+                                                          0.00       4.50 r
+  library setup time                                     -0.13       4.37
+  data required time                                                 4.37
+  --------------------------------------------------------------------------
+  data required time                                                 4.37
+  data arrival time                                                 -4.37
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
